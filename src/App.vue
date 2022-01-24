@@ -1,28 +1,49 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="wrapper">
+    <NavBar />
+    <TheHeader />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "./components/NavBar"
+import TheHeader from "./components/TheHeader"
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
+    NavBar,
+    TheHeader,
+  },
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Spartan:wght@500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  background-color: #000;
+}
+#wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+  font-family: "Spartan", sans-serif;
 }
 </style>
