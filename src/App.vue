@@ -2,18 +2,21 @@
   <div id="wrapper">
     <NavBar />
     <TheHeader />
+    <AboutSection />
   </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar"
 import TheHeader from "./components/TheHeader"
+import AboutSection from "./components/AboutSection"
 
 export default {
   name: "App",
   components: {
     NavBar,
     TheHeader,
+    AboutSection,
   },
 }
 </script>
@@ -35,11 +38,10 @@ body {
   font-family: "Jost", sans-serif;
   font-size: 16px;
   background-color: #000;
+  line-height: 1.6;
 }
 #wrapper {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 h1,
 h2,

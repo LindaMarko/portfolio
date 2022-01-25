@@ -7,7 +7,7 @@
       <div class="heading">
         <p>My name is</p>
         <h2>Linda Markó</h2>
-        <p>&#38; I am a JavaScript <span>developer.</span></p>
+        <p>&#38; I am a <span>JavaScript</span> developer.</p>
       </div>
     </div>
   </header>
@@ -29,28 +29,40 @@ header {
     justify-content: center;
     align-items: center;
   }
-  .intro {
-    background-color: rgb(8, 8, 8);
-    color: whitesmoke;
-    padding: 1rem;
 
-    .heading p {
-      font-size: 1.2rem;
-    }
-    .heading span {
-      color: rgba(5, 154, 220, 0.93);
-      font-size: 1.2rem;
-    }
-  }
   .hello {
     background-color: whitesmoke;
+    background-image: url(../assets/textil3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem;
 
     h1 {
       font-size: 5rem;
       font-weight: 900;
       margin-top: 2.8rem;
-      color: rgba(0, 247, 195, 0.62);
+      color: rgb(255, 255, 255);
       text-transform: uppercase;
+    }
+  }
+
+  .intro {
+    background-color: rgb(8, 8, 8);
+    color: whitesmoke;
+    padding: 1rem;
+
+    .heading h2 {
+      font-size: 1.5rem;
+      // text-align: right;
+    }
+    .heading p {
+      font-size: 1.3rem;
+      // text-align: right;
+    }
+    .heading span {
+      color: #00f7c3;
+      font-size: 1.3rem;
+      font-weight: 500;
     }
   }
 }
@@ -58,6 +70,32 @@ header {
   header {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+
+    .hello h1 {
+      font-size: 5.5rem;
+    }
+    .intro {
+      padding: 2rem;
+    }
+    .intro .heading h2 {
+      font-size: 1.6rem;
+    }
+    .intro .heading p {
+      font-size: 1.5rem;
+    }
+    .intro .heading span {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media (min-width: 830px) {
+  header .hello h1 {
+    font-size: 6.5rem;
+  }
+}
+@media (min-width: 1020px) {
+  header .hello h1 {
+    font-size: 7rem;
   }
 }
 </style>

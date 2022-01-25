@@ -38,7 +38,6 @@ export default {
 <style>
 .navbar {
   width: 100%;
-  max-width: 1200px;
   height: 2.2rem;
   background-color: rgb(8, 8, 8);
   position: fixed;
@@ -68,7 +67,7 @@ export default {
   font-family: "Spartan", sans-serif;
   font-size: 1rem;
   font-weight: 800;
-  color: #eee;
+  color: #00f7c3;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
@@ -138,5 +137,10 @@ export default {
 .change .line-3 {
   transform: translateY(-0.5rem) rotate(35deg);
   transform-origin: right;
+}
+@media (min-width: 767px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
 }
 </style>
