@@ -143,4 +143,15 @@ export default {
     font-size: 1.5rem;
   }
 }
+@media (min-width: 1300px) {
+  .navbar {
+    height: 3rem;
+  }
+  .logo {
+    top: 0.8rem;
+  }
+  .menu {
+    top: 0.5rem;
+  }
+}
 </style>

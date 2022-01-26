@@ -71,12 +71,23 @@ export default {}
 @media (min-width: 1020px) {
   #about {
     h2 {
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
       font-size: 3.5rem;
     }
 
     .about-text {
       width: 50%;
+    }
+  }
+}
+@media (min-width: 1300px) {
+  #about {
+    .about-text {
+      width: 40%;
+
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }

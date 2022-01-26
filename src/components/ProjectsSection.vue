@@ -2,7 +2,7 @@
   <section id="projects">
     <h2>Project<span>s</span></h2>
     <div class="project-container">
-      <article>
+      <article class="sw">
         <h3>Star Wars Catalog</h3>
         <img src="../assets/sw_screen.jpg" alt="Star Wars Catalog" />
         <p>
@@ -17,9 +17,9 @@
           <a href="https://youtu.be/NeglszyBnfQ">View Site</a>
         </div>
       </article>
-      <article>
+      <article class="wallet">
         <h3>E-wallet</h3>
-        <img src="../assets/e-wallet_screen.jpg" alt="E-wallet" />
+        <img src="../assets/e-wallet-ss.jpg" alt="E-wallet" />
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam
@@ -45,7 +45,7 @@ export default {}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 7rem;
+  padding-bottom: 8rem;
   background-color: rgb(8, 8, 8);
   color: whitesmoke;
 
@@ -63,11 +63,12 @@ export default {}
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
 
     img {
       width: 85%;
-      opacity: 0.5;
+      opacity: 0.4;
+      border: 1px solid whitesmoke;
 
       &:hover {
         opacity: 1;
@@ -75,33 +76,125 @@ export default {}
     }
 
     h3 {
-      margin: 1rem 0 1.5rem 0;
+      margin: 1rem 0 1rem 0;
       font-size: 1.3rem;
     }
 
     p {
       margin: 2rem 0 3rem;
-      padding: 0 1.2rem;
+      padding: 0 1.5rem;
       text-align: center;
     }
 
     .buttons a {
       border: 1px solid whitesmoke;
       color: whitesmoke;
-      padding: 1rem;
-      margin: 0 1rem;
+      padding: 0.8rem;
+      margin: 0.81rem;
       cursor: pointer;
+
+      &:hover {
+        background-color: whitesmoke;
+        color: rgb(8, 8, 8);
+        font-weight: 600;
+      }
+    }
+  }
+  article.wallet {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 515px) {
+  #projects {
+    article {
+      img {
+        width: 70%;
+      }
+
+      p {
+        padding: 0 4rem;
+      }
     }
   }
 }
 @media (min-width: 767px) {
   #projects {
+    h2 {
+      font-size: 3rem;
+    }
+
     .project-container {
       display: flex;
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     article {
-      padding: 1rem;
+      margin-top: 3rem;
+      padding: 1.5rem;
+
+      img {
+        width: 95%;
+        border: none;
+      }
+
+      h3 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        padding: 0 1rem;
+      }
+    }
+    article.sw {
+      border-right: 1px solid whitesmoke;
+    }
+    article.wallet {
+      margin-top: 3rem;
+    }
+  }
+}
+@media (min-width: 1020px) {
+  #projects {
+    h2 {
+      margin-bottom: 3rem;
+      font-size: 3.5rem;
+    }
+    article {
+      padding: 2rem;
+
+      img {
+        width: 85%;
+      }
+
+      p {
+        padding: 0 1.5rem;
+      }
+    }
+  }
+}
+@media (min-width: 1300px) {
+  #projects {
+    h2 {
+      margin-bottom: 5rem;
+      font-size: 3.5rem;
+    }
+    article {
+      margin-top: 0;
+      padding: 3rem;
+
+      img {
+        width: 75%;
+      }
+
+      p {
+        padding: 0 3rem;
+        font-size: 1rem;
+      }
+      .buttons a {
+        font-size: 1.1rem;
+      }
+    }
+    article.wallet {
+      margin-top: 0;
     }
   }
 }

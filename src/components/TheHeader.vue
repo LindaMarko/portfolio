@@ -110,11 +110,11 @@ header {
 @media (min-width: 1300px) {
   header {
     .intro .heading h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
     .intro .heading p,
     .intro .heading span {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
 }
