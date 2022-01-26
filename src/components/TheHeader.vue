@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="home">
     <div class="hello">
       <h1>Hello.</h1>
     </div>
@@ -38,7 +38,7 @@ header {
     padding: 0.5rem;
 
     h1 {
-      font-size: 5rem;
+      font-size: 4.5rem;
       font-weight: 900;
       margin-top: 2.8rem;
       color: rgb(255, 255, 255);
@@ -53,11 +53,9 @@ header {
 
     .heading h2 {
       font-size: 1.5rem;
-      // text-align: right;
     }
     .heading p {
       font-size: 1.3rem;
-      // text-align: right;
     }
     .heading span {
       color: #00f7c3;
@@ -72,10 +70,11 @@ header {
     grid-template-columns: 1fr 1fr;
 
     .hello h1 {
-      font-size: 5.5rem;
+      font-size: 5.3rem;
     }
     .intro {
-      padding: 2rem;
+      padding: 0.5rem;
+      line-height: 1.4;
     }
     .intro .heading h2 {
       font-size: 1.6rem;
@@ -90,12 +89,33 @@ header {
 }
 @media (min-width: 830px) {
   header .hello h1 {
-    font-size: 6.5rem;
+    font-size: 5.8rem;
   }
 }
 @media (min-width: 1020px) {
-  header .hello h1 {
-    font-size: 7rem;
+  header {
+    .hello h1 {
+      font-size: 6.5rem;
+    }
+
+    .intro .heading h2 {
+      font-size: 2rem;
+    }
+    .intro .heading p,
+    .intro .heading span {
+      font-size: 1.8rem;
+    }
+  }
+}
+@media (min-width: 1300px) {
+  header {
+    .intro .heading h2 {
+      font-size: 2rem;
+    }
+    .intro .heading p,
+    .intro .heading span {
+      font-size: 1.8rem;
+    }
   }
 }
 </style>

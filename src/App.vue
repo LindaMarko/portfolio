@@ -3,6 +3,7 @@
     <NavBar />
     <TheHeader />
     <AboutSection />
+    <ProjectsSection />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import NavBar from "./components/NavBar"
 import TheHeader from "./components/TheHeader"
 import AboutSection from "./components/AboutSection"
+import ProjectsSection from "./components/ProjectsSection"
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     NavBar,
     TheHeader,
     AboutSection,
+    ProjectsSection,
   },
 }
 </script>
