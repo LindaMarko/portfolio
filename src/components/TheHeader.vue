@@ -32,7 +32,7 @@ header {
 
   .hello {
     background-color: whitesmoke;
-    background-image: url(../assets/textil3.jpg);
+    background-image: url(../assets/paper-black.jpg);
     background-position: center;
     background-size: cover;
     padding: 0.5rem;

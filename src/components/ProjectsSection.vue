@@ -1,6 +1,6 @@
 <template>
   <section id="projects">
-    <h2>Project<span>s</span></h2>
+    <h2>Pro<span>j</span>ects</h2>
     <div class="project-container">
       <article class="sw">
         <h3>Star Wars Catalog</h3>
@@ -11,10 +11,12 @@
           dolor sit amet consectetur adipisicing elit. Aperiam, in.
         </p>
         <div class="buttons">
-          <a href="https://github.com/LindaMarko/vanilla_js_final_project"
+          <a
+            href="https://github.com/LindaMarko/vanilla_js_final_project"
+            target="_blank"
             >View Code</a
           >
-          <a href="https://youtu.be/NeglszyBnfQ">View Site</a>
+          <a href="https://youtu.be/NeglszyBnfQ" target="_blank">View Site</a>
         </div>
       </article>
       <article class="wallet">
@@ -27,8 +29,12 @@
           dolor sit amet consectetur adipisicing elit. Tenetur, repellendus.
         </p>
         <div class="buttons">
-          <a href="https://github.com/LindaMarko/vue-e-wallet">View Code</a>
-          <a href="https://youtu.be/UwIvhktP-4w">View Site</a>
+          <a href="https://github.com/LindaMarko/vue-e-wallet" target="_blank"
+            >View Code</a
+          >
+          <a href="https://lindamarko.github.io/vue-e-wallet/" target="_blank"
+            >View Site</a
+          >
         </div>
       </article>
     </div>
@@ -67,7 +73,7 @@ export default {}
 
     img {
       width: 85%;
-      opacity: 0.4;
+      opacity: 0.6;
       border: 1px solid whitesmoke;
 
       &:hover {

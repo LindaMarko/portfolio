@@ -39,7 +39,7 @@ export default {
 .navbar {
   width: 100%;
   height: 2.2rem;
-  background-color: rgb(8, 8, 8);
+  background-color: #080808;
   position: fixed;
   top: -8rem;
   z-index: 10;

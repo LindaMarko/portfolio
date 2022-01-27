@@ -28,7 +28,7 @@ export default {}
 
 <style scoped lang="scss">
 #about {
-  height: 100vh;
+  // height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,6 +37,7 @@ export default {}
   color: rgb(8, 8, 8);
 
   h2 {
+    margin-top: 6rem;
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
 
@@ -48,7 +49,7 @@ export default {}
   .about-text {
     width: 95%;
     padding: 1.5rem 1rem;
-    margin: 0 1rem;
+    margin: 0 1rem 6rem;
     border: 1px solid whitesmoke;
     text-align: center;
   }

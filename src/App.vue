@@ -4,6 +4,7 @@
     <TheHeader />
     <AboutSection />
     <ProjectsSection />
+    <SkillsSection />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavBar from "./components/NavBar"
 import TheHeader from "./components/TheHeader"
 import AboutSection from "./components/AboutSection"
 import ProjectsSection from "./components/ProjectsSection"
+import SkillsSection from "./components/SkillsSection"
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     TheHeader,
     AboutSection,
     ProjectsSection,
+    SkillsSection,
   },
 }
 </script>
