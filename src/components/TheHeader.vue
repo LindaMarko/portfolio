@@ -31,7 +31,6 @@ header {
   }
 
   .hello {
-    background-color: whitesmoke;
     background-image: url(../assets/paper-black.jpg);
     background-position: center;
     background-size: cover;
@@ -71,6 +70,7 @@ header {
 
     .hello h1 {
       font-size: 5.3rem;
+      margin-top: 2.3rem;
     }
     .intro {
       padding: 0.5rem;
@@ -79,31 +79,16 @@ header {
     .intro .heading h2 {
       font-size: 1.6rem;
     }
-    .intro .heading p {
-      font-size: 1.5rem;
-    }
+    .intro .heading p,
     .intro .heading span {
       font-size: 1.5rem;
     }
-  }
-}
-@media (min-width: 830px) {
-  header .hello h1 {
-    font-size: 5.8rem;
   }
 }
 @media (min-width: 1020px) {
   header {
     .hello h1 {
-      font-size: 6.5rem;
-    }
-
-    .intro .heading h2 {
-      font-size: 2rem;
-    }
-    .intro .heading p,
-    .intro .heading span {
-      font-size: 1.8rem;
+      font-size: 6.3rem;
     }
   }
 }
@@ -111,10 +96,6 @@ header {
   header {
     .intro .heading h2 {
       font-size: 1.8rem;
-    }
-    .intro .heading p,
-    .intro .heading span {
-      font-size: 1.5rem;
     }
   }
 }

@@ -66,6 +66,7 @@ export default {}
       padding: 2rem;
       border: 1px solid #000;
       text-align: left;
+      margin-bottom: 8rem;
     }
   }
 }

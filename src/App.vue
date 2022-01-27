@@ -5,6 +5,7 @@
     <AboutSection />
     <ProjectsSection />
     <SkillsSection />
+    <TheFooter />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import TheHeader from "./components/TheHeader"
 import AboutSection from "./components/AboutSection"
 import ProjectsSection from "./components/ProjectsSection"
 import SkillsSection from "./components/SkillsSection"
+import TheFooter from "./components/TheFooter"
 
 export default {
   name: "App",
@@ -23,6 +25,7 @@ export default {
     AboutSection,
     ProjectsSection,
     SkillsSection,
+    TheFooter,
   },
 }
 </script>

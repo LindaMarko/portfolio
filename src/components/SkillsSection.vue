@@ -92,6 +92,10 @@ export default {}
 }
 @media (min-width: 767px) {
   #skills {
+    padding-bottom: 10rem;
+    h2 {
+      font-size: 3rem;
+    }
     .skills-container {
       grid-template-columns: repeat(4, 1fr);
       .logo-con {

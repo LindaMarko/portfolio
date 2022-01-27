@@ -1,6 +1,6 @@
 <template>
   <section id="projects">
-    <h2>Pro<span>j</span>ects</h2>
+    <h2>Project<span>s</span></h2>
     <div class="project-container">
       <article class="sw">
         <h3>Star Wars Catalog</h3>
