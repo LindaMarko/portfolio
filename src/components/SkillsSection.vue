@@ -46,6 +46,10 @@
         <img src="../assets/logos/resp-icon.png" alt="Responsive Design Logo" />
         <p>Responsive Design</p>
       </div>
+      <div class="logo-con">
+        <img src="../assets/logos/figma-logo.png" alt="Figma Logo" />
+        <p>Figma</p>
+      </div>
     </article>
   </section>
 </template>
@@ -60,7 +64,7 @@ export default {}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6rem 3rem 8rem;
+  padding: 6rem 3rem 10rem;
   background-color: rgb(8, 8, 8);
   color: whitesmoke;
 
@@ -92,7 +96,7 @@ export default {}
 }
 @media (min-width: 767px) {
   #skills {
-    padding-bottom: 10rem;
+    padding: 10rem 3rem 13rem;
     h2 {
       font-size: 3rem;
     }
@@ -103,6 +107,15 @@ export default {}
           font-size: 1.2rem;
         }
       }
+    }
+  }
+}
+@media (min-width: 1020px) {
+  #skills {
+    padding: 9rem 3rem 15rem;
+
+    .skills-container {
+      row-gap: 4rem;
     }
   }
 }

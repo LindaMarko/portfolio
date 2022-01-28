@@ -3,20 +3,25 @@
     <h2><span>A</span>bout</h2>
     <div class="about-text">
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo minima
-        quis, non temporibus nemo ratione dolores? Molestias similique quas,
-        mollitia sit, sapiente cum labore impedit, eligendi tempore vitae quam.
+        I am a curious and enthusiastic JavaScript Developer student from
+        Stockholm with a background in retail and e-commerce.
       </p>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quos, at
-        molestias aperiam nulla tenetur laborum nemo animi eum amet possimus
-        pariatur. Dolorum, aliquam! Ut sint quisquam consequuntur impedit, optio
-        reiciendis aspernatur excepturi tempora repudiandae nesciunt dolorum
-        veritatis ullam nobis.
+        I am truly grateful that I had the opportunity to change my career,
+        although it doesn’t feel like a change but more like a natural progress
+        in my life. Studying web development and programing is the real deal
+        that I am deeply passionate about.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni natus
-        tempore debitis, voluptas quas rerum illo nihil neque tenetur beatae.
+        With a strong interest in both front-end and back-end technologies, I
+        have completed a great deal of coursework with
+        <strong>Vanilla JavaScript</strong> and <strong>Vue.js</strong> during
+        my studies so far and I am looking forward to getting familiar with
+        <strong>React</strong> and <strong>Node.js</strong> in this semester.
+      </p>
+      <p>
+        At the moment, my portfolio contains some of my relevant school projects
+        and will be constantly updated.
       </p>
     </div>
   </section>
@@ -48,10 +53,14 @@ export default {}
 
   .about-text {
     width: 95%;
+    max-width: 500px;
     padding: 1.5rem 1rem;
     margin: 0 1rem 6rem;
     border: 1px solid whitesmoke;
-    text-align: center;
+
+    p {
+      margin: 0.5rem 0 1rem;
+    }
   }
 }
 @media (min-width: 767px) {
@@ -74,7 +83,6 @@ export default {}
   #about {
     h2 {
       margin-bottom: 3rem;
-      font-size: 3.5rem;
     }
 
     .about-text {

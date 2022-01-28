@@ -2,9 +2,11 @@
   <div id="wrapper">
     <NavBar />
     <TheHeader />
-    <AboutSection />
-    <ProjectsSection />
-    <SkillsSection />
+    <main>
+      <AboutSection />
+      <ProjectsSection />
+      <SkillsSection />
+    </main>
     <TheFooter />
   </div>
 </template>

@@ -22,7 +22,6 @@
       <article class="wallet">
         <h3>E-wallet</h3>
         <img src="../assets/e-wallet-ss.jpg" alt="E-wallet" />
-
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam
           modi, fuga suscipit maxime enim dicta iure sint iusto ut. Lorem ipsum
@@ -73,7 +72,7 @@ export default {}
 
     img {
       width: 85%;
-      opacity: 0.6;
+      opacity: 0.8;
       border: 1px solid whitesmoke;
 
       &:hover {
@@ -95,14 +94,15 @@ export default {}
     .buttons a {
       border: 1px solid whitesmoke;
       color: whitesmoke;
-      padding: 0.8rem;
+      padding: 0.5rem 0.7rem;
       margin: 0.81rem;
+      font-weight: 500;
       cursor: pointer;
+      transition: 0.3s;
 
       &:hover {
         background-color: whitesmoke;
         color: rgb(8, 8, 8);
-        font-weight: 600;
       }
     }
   }
@@ -181,7 +181,6 @@ export default {}
   #projects {
     h2 {
       margin-bottom: 5rem;
-      font-size: 3.5rem;
     }
     article {
       margin-top: 0;

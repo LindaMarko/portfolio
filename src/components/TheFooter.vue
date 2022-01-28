@@ -2,18 +2,18 @@
   <footer id="contact">
     <div class="contact-info">
       <div class="heading">
-        <h2>Contact</h2>
+        <h2>C<span>o</span>ntact</h2>
         <p>
           I am currently looking for internship for fall 2022. Feel free to
           contact me.
         </p>
-        <p class="email"><span>Email:</span> lindamarko.dev@gmail.com</p>
+        <p class="email"><strong>Email:</strong> lindamarko.dev@gmail.com</p>
         <div class="links">
-          <a href="https://www.linkedin.com/in/linda-marko/"
-            ><img src="" alt=""
+          <a href="https://www.linkedin.com/in/linda-marko/" target="_blank"
+            ><img src="../assets/logos/linkedin-logo.png" alt="LinkedIn Logo"
           /></a>
-          <a href="https://github.com/LindaMarko"
-            ><img src="../assets/logos/github-icon.png" alt="GitHub Logo"
+          <a href="https://github.com/LindaMarko" target="_blank"
+            ><img src="../assets/logos/github-logo-black.png" alt="GitHub Logo"
           /></a>
         </div>
       </div>
@@ -61,16 +61,16 @@ footer {
   .contact-info {
     background-color: #f5f5f5;
     color: rgb(8, 8, 8);
-    padding: 1rem;
     text-align: center;
     .heading {
       flex-direction: column;
       padding: 1rem;
+      max-width: 325px;
     }
 
     .heading h2 {
       font-size: 2.5rem;
-      margin-top: 3rem;
+      margin-top: 4rem;
       margin-bottom: 2rem;
     }
     .heading p {
@@ -78,8 +78,16 @@ footer {
     }
     .heading span {
       color: #00f7c3;
-      font-size: 1.1rem;
-      font-weight: 700;
+    }
+    .heading .email {
+      margin-top: 0.8rem;
+    }
+    .heading .links {
+      margin: 2rem 0 4rem;
+
+      a {
+        margin: 0 0.3em;
+      }
     }
   }
 }
@@ -93,15 +101,13 @@ footer {
       margin-top: 0;
     }
     .contact-info {
-      padding: 1rem;
       line-height: 1.4;
     }
     .contact-info .heading h2 {
       font-size: 3rem;
       margin-top: 2rem;
     }
-    .contact-info .heading p,
-    .contact-info .heading span {
+    .contact-info .heading p {
       font-size: 1rem;
     }
   }
@@ -114,12 +120,8 @@ footer {
     .see-you h1 {
       font-size: 6.3rem;
     }
-
-    .contact-info {
-      padding: 5rem;
-    }
     .contact-info .heading h2 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
   }
 }
@@ -128,14 +130,13 @@ footer {
     .see-you {
       padding: 0 10rem;
     }
-    .contact-info {
-      padding: 8rem;
+    .contact-info .heading {
+      max-width: 350px;
     }
     .contact-info .heading h2 {
       font-size: 2.5rem;
     }
-    .contact-info .heading p,
-    .contact-info .heading span {
+    .contact-info .heading p {
       font-size: 1.1rem;
     }
   }
