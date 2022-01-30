@@ -5,7 +5,7 @@
     <main>
       <AboutSection />
       <ProjectsSection />
-      <SkillsSection />
+      <SkillsSection :skills="skillsArr" />
     </main>
     <TheFooter />
   </div>
@@ -18,6 +18,7 @@ import AboutSection from "./components/AboutSection"
 import ProjectsSection from "./components/ProjectsSection"
 import SkillsSection from "./components/SkillsSection"
 import TheFooter from "./components/TheFooter"
+import skills from "./assets/skills.js"
 
 export default {
   name: "App",
@@ -28,6 +29,11 @@ export default {
     ProjectsSection,
     SkillsSection,
     TheFooter,
+  },
+  data() {
+    return {
+      skillsArr: [...skills],
+    }
   },
 }
 </script>

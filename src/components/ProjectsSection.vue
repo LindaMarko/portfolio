@@ -57,6 +57,7 @@ export default {}
   h2 {
     margin-top: 7rem;
     font-size: 2.5rem;
+    text-transform: lowercase;
 
     span {
       color: #00f7c3;
@@ -72,8 +73,7 @@ export default {}
 
     img {
       width: 85%;
-      opacity: 0.8;
-      border: 1px solid whitesmoke;
+      // border: 1px solid whitesmoke;
 
       &:hover {
         opacity: 1;
@@ -138,12 +138,12 @@ export default {}
       padding: 1.5rem;
 
       img {
-        width: 95%;
+        width: 90%;
         border: none;
       }
 
       h3 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
       }
 
       p {
@@ -162,13 +162,12 @@ export default {}
   #projects {
     h2 {
       margin-bottom: 3rem;
-      font-size: 3.5rem;
     }
     article {
       padding: 2rem;
 
       img {
-        width: 85%;
+        width: 80%;
       }
 
       p {
@@ -179,7 +178,11 @@ export default {}
 }
 @media (min-width: 1300px) {
   #projects {
+    .project-container {
+      padding: 0 3rem;
+    }
     h2 {
+      font-size: 3.5rem;
       margin-bottom: 5rem;
     }
     article {
@@ -187,7 +190,7 @@ export default {}
       padding: 3rem;
 
       img {
-        width: 75%;
+        width: 70%;
       }
 
       p {
@@ -195,7 +198,7 @@ export default {}
         font-size: 1rem;
       }
       .buttons a {
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     }
     article.wallet {

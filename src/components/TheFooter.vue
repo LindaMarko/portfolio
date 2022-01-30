@@ -72,6 +72,7 @@ footer {
       font-size: 2.5rem;
       margin-top: 4rem;
       margin-bottom: 2rem;
+      text-transform: lowercase;
     }
     .heading p {
       font-size: 1rem;
@@ -134,7 +135,7 @@ footer {
       max-width: 350px;
     }
     .contact-info .heading h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     .contact-info .heading p {
       font-size: 1.1rem;

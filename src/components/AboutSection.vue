@@ -9,7 +9,7 @@
       <p>
         I am truly grateful that I had the opportunity to change my career,
         although it doesn’t feel like a change but more like a natural progress
-        in my life. Studying web development and programing is the real deal
+        in my life. Studying web development and programming is the real deal
         that I am deeply passionate about.
       </p>
       <p>
@@ -45,6 +45,7 @@ export default {}
     margin-top: 6rem;
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
+    text-transform: lowercase;
 
     span {
       color: #00f7c3;
@@ -92,6 +93,9 @@ export default {}
 }
 @media (min-width: 1300px) {
   #about {
+    h2 {
+      font-size: 3.5rem;
+    }
     .about-text {
       width: 40%;
 

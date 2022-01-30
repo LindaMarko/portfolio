@@ -91,13 +91,14 @@ export default {
 }
 .nav-link {
   font-family: "Spartan", sans-serif;
-  font-weight: 800;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: #fff;
   margin: 1rem 0;
   transition: color 0.4s;
+  text-transform: lowercase;
 }
 .nav-link:hover {
   color: #00f7c3;
@@ -152,6 +153,9 @@ export default {
   }
   .menu {
     top: 0.5rem;
+  }
+  .nav-link {
+    font-size: 1.8rem;
   }
 }
 </style>
