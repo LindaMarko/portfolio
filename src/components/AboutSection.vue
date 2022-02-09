@@ -45,7 +45,6 @@ export default {}
     margin-top: 6rem;
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
-    text-transform: lowercase;
 
     span {
       color: #00f7c3;

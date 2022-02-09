@@ -2,12 +2,22 @@
   <footer id="contact">
     <div class="contact-info">
       <div class="heading">
-        <h2>C<span>o</span>ntact</h2>
+        <h2>C<span class="letterO">o</span>ntact</h2>
         <p>
           I am currently looking for internship for fall 2022. Feel free to
           contact me.
         </p>
-        <p class="email"><strong>Email:</strong> lindamarko.dev@gmail.com</p>
+        <vue-typed-js
+          :strings="['lindamarko.dev@gmail.com']"
+          :showCursor="false"
+          :startDelay="900"
+          :typeSpeed="120"
+          :backSpeed="40"
+          :backDelay="5000"
+          :loop="true"
+          ><p class="email">
+            <strong>Email:</strong> <span class="typing"></span></p
+        ></vue-typed-js>
         <div class="links">
           <a href="https://www.linkedin.com/in/linda-marko/" target="_blank"
             ><img src="../assets/logos/linkedin-logo.png" alt="LinkedIn Logo"
@@ -72,12 +82,11 @@ footer {
       font-size: 2.5rem;
       margin-top: 4rem;
       margin-bottom: 2rem;
-      text-transform: lowercase;
     }
     .heading p {
       font-size: 1rem;
     }
-    .heading span {
+    .heading .letterO {
       color: #00f7c3;
     }
     .heading .email {

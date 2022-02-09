@@ -32,7 +32,6 @@ export default {
 
   h2 {
     font-size: 2.5rem;
-    text-transform: lowercase;
 
     span {
       color: #00f7c3;

@@ -57,7 +57,6 @@ export default {}
   h2 {
     margin-top: 7rem;
     font-size: 2.5rem;
-    text-transform: lowercase;
 
     span {
       color: #00f7c3;

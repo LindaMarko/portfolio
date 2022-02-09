@@ -7,7 +7,19 @@
       <div class="heading">
         <p>My name is</p>
         <h2>Linda Markó</h2>
-        <p>&#38; I am a <span>JavaScript</span> developer.</p>
+        <vue-typed-js
+          :strings="['JavaScript']"
+          :showCursor="false"
+          :startDelay="900"
+          :typeSpeed="120"
+          :backSpeed="70"
+          :backDelay="3000"
+          :loop="true"
+          ><p>
+            &#38; I am a
+            <span class="typing"></span> developer.
+          </p></vue-typed-js
+        >
       </div>
     </div>
   </header>

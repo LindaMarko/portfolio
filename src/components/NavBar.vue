@@ -3,6 +3,11 @@
     <nav class="navbar" :class="{ change: showNav }">
       <div class="logo">
         <a href="#"> LM </a>
+        <div class="menu" :class="{ change: showNav }" @click="toggleNav">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
       </div>
       <div class="nav-list" v-if="showNav" @click="toggleNav">
         <a href="#home" class="nav-link">Home</a>
@@ -10,11 +15,6 @@
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#contact" class="nav-link">Contact</a>
-      </div>
-      <div class="menu" :class="{ change: showNav }" @click="toggleNav">
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
       </div>
     </nav>
   </div>
@@ -38,7 +38,7 @@ export default {
 <style>
 .navbar {
   width: 100%;
-  height: 2.2rem;
+  height: 2.4rem;
   background-color: #080808;
   position: fixed;
   top: -8rem;
@@ -92,13 +92,12 @@ export default {
 .nav-link {
   font-family: "Spartan", sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: #fff;
   margin: 1rem 0;
   transition: color 0.4s;
-  text-transform: lowercase;
 }
 .nav-link:hover {
   color: #00f7c3;
@@ -107,7 +106,7 @@ export default {
   width: 1.5rem;
   height: 2rem;
   position: fixed;
-  top: 0.1rem;
+  top: 0.2rem;
   right: 1.5rem;
   z-index: 100;
   display: flex;
@@ -141,7 +140,7 @@ export default {
 }
 @media (min-width: 767px) {
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 1300px) {
@@ -155,7 +154,7 @@ export default {
     top: 0.5rem;
   }
   .nav-link {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 </style>
