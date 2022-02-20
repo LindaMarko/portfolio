@@ -6,15 +6,16 @@
         <h3>Star Wars Catalog</h3>
         <img src="../assets/sw_screen.jpg" alt="Star Wars Catalog" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam
-          modi, fuga suscipit maxime enim dicta iure sint iusto ut. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Aperiam, in.
+          A single page application that lists all the characters and their
+          personal details from the Star Wars movies. Created using the Star
+          Wars <strong>API</strong>, written in <strong>HTML</strong>,
+          <strong>CSS</strong> and <strong>Vanilla JavaScript</strong>.
         </p>
         <div class="buttons">
           <a
             href="https://github.com/LindaMarko/vanilla_js_final_project"
             target="_blank"
-            >View Code</a
+            >Source Code</a
           >
           <a href="https://youtu.be/NeglszyBnfQ" target="_blank">View Site</a>
         </div>
@@ -23,13 +24,14 @@
         <h3>E-wallet</h3>
         <img src="../assets/e-wallet-ss.jpg" alt="E-wallet" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam
-          modi, fuga suscipit maxime enim dicta iure sint iusto ut. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Tenetur, repellendus.
+          The E-wallet App is a single page application, built in
+          <strong>Vue.js</strong> and has two different views, Home and Add
+          Card. You can add and remove credit cards, see the current active card
+          and all other available cards.
         </p>
         <div class="buttons">
           <a href="https://github.com/LindaMarko/vue-e-wallet" target="_blank"
-            >View Code</a
+            >Source Code</a
           >
           <a href="https://lindamarko.github.io/vue-e-wallet/" target="_blank"
             >View Site</a
@@ -66,9 +68,9 @@ export default {}
   article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
 
     img {
       width: 85%;
@@ -92,8 +94,9 @@ export default {}
 
     .buttons a {
       border: 1px solid whitesmoke;
+      border-radius: 50px;
       color: whitesmoke;
-      padding: 0.5rem 0.7rem;
+      padding: 0.5rem 1rem;
       margin: 0.81rem;
       font-weight: 500;
       cursor: pointer;
@@ -106,12 +109,13 @@ export default {}
     }
   }
   article.wallet {
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
 }
 @media (min-width: 515px) {
   #projects {
     article {
+      flex: 1;
       img {
         width: 70%;
       }
@@ -130,6 +134,7 @@ export default {}
 
     .project-container {
       display: flex;
+      margin-top: 3rem;
       padding: 0 1rem;
     }
     article {

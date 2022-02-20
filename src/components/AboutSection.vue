@@ -3,8 +3,9 @@
     <h2><span>A</span>bout</h2>
     <div class="about-text">
       <p>
-        I am a curious and enthusiastic JavaScript Developer student from
-        Stockholm with a background in retail and e-commerce.
+        I am a curious and enthusiastic
+        <strong>JavaScript Developer</strong> student from Stockholm with a
+        background in retail and e-commerce.
       </p>
       <p>
         I am truly grateful that I had the opportunity to change my career,
@@ -21,7 +22,7 @@
       </p>
       <p>
         At the moment, my portfolio contains some of my relevant school projects
-        and will be constantly updated.
+        and will be updated constantly.
       </p>
     </div>
   </section>
@@ -75,7 +76,7 @@ export default {}
       padding: 2rem;
       border: 1px solid #000;
       text-align: left;
-      margin-bottom: 8rem;
+      margin-bottom: 12rem;
     }
   }
 }

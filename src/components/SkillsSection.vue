@@ -58,7 +58,7 @@ export default {
 }
 @media (min-width: 767px) {
   #skills {
-    padding: 10rem 3rem 13rem;
+    padding: 10rem 3rem 18rem;
     h2 {
       font-size: 3rem;
     }
@@ -77,7 +77,7 @@ export default {
     h2 {
       font-size: 3.5rem;
     }
-    padding: 9rem 3rem 15rem;
+    padding: 9rem 3rem 23rem;
 
     .skills-container {
       row-gap: 4rem;

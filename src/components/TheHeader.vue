@@ -10,10 +10,10 @@
         <vue-typed-js
           :strings="['JavaScript']"
           :showCursor="false"
-          :startDelay="900"
-          :typeSpeed="120"
-          :backSpeed="70"
-          :backDelay="3000"
+          :startDelay="2000"
+          :typeSpeed="150"
+          :backSpeed="60"
+          :backDelay="5000"
           :loop="true"
           ><p>
             &#38; I am a
