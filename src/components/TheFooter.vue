@@ -124,9 +124,9 @@ footer {
 }
 @media (min-width: 1020px) {
   footer {
-    .see-you {
-      padding: 0 6rem;
-    }
+    // .see-you {
+    //   padding: 0 6rem;
+    // }
     .see-you h1 {
       font-size: 6.3rem;
     }
@@ -137,9 +137,9 @@ footer {
 }
 @media (min-width: 1300px) {
   footer {
-    .see-you {
-      padding: 0 10rem;
-    }
+    // .see-you {
+    //   padding: 0 10rem;
+    // }
     .contact-info .heading {
       max-width: 350px;
     }
