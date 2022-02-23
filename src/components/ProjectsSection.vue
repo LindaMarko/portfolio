@@ -95,6 +95,8 @@ export default {}
     .buttons a {
       border: 1px solid whitesmoke;
       border-radius: 50px;
+      border-bottom-right-radius: 0;
+
       color: whitesmoke;
       padding: 0.5rem 1rem;
       margin: 0.81rem;
@@ -105,6 +107,8 @@ export default {}
       &:hover {
         background-color: whitesmoke;
         color: rgb(8, 8, 8);
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 50px;
       }
     }
   }
