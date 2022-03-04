@@ -1,7 +1,14 @@
 <template>
   <header id="home">
     <div class="hello">
-      <h1>Hello.</h1>
+      <h1>
+        <span class="animate">H</span>
+        <span class="animate animate-2">e</span>
+        <span class="animate animate-3">l</span>
+        <span class="animate animate-4">l</span>
+        <span class="animate animate-5">o</span>
+        <span class="animate animate-6">.</span>
+      </h1>
     </div>
     <div class="intro">
       <div class="heading">
@@ -10,11 +17,10 @@
         <vue-typed-js
           :strings="['JavaScript']"
           :showCursor="false"
-          :startDelay="2000"
+          :startDelay="3000"
           :typeSpeed="150"
           :backSpeed="60"
           :backDelay="5000"
-          :loop="true"
           ><p>
             &#38; I am a
             <span class="typing"></span> developer.
@@ -34,20 +40,17 @@ header {
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
-
   .hello,
   .intro {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .hello {
     background-image: url(../assets/paper-black.jpg);
     background-position: center;
     background-size: cover;
     padding: 0.5rem;
-
     h1 {
       font-size: 4.5rem;
       font-weight: 900;
@@ -56,12 +59,42 @@ header {
       text-transform: uppercase;
     }
   }
-
+  h1 .animate {
+    opacity: 1;
+  }
+  .animate {
+    animation: fading-letters 6s ease 0.3s 3;
+  }
+  .animate-2 {
+    animation: fading-letters 6s ease 1s 3;
+  }
+  .animate-3 {
+    animation: fading-letters 6s ease 1.7s 3;
+  }
+  .animate-4 {
+    animation: fading-letters 6s ease 2.2s 3;
+  }
+  .animate-5 {
+    animation: fading-letters 6s ease 2.9s 3;
+  }
+  .animate-6 {
+    animation: fading-letters 6s ease 3.5s 3;
+  }
+  @keyframes fading-letters {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   .intro {
     background-color: rgb(8, 8, 8);
     color: whitesmoke;
     padding: 1rem;
-
     .heading h2 {
       font-size: 1.5rem;
     }
@@ -79,7 +112,6 @@ header {
   header {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-
     .hello h1 {
       font-size: 5.3rem;
       margin-top: 2.3rem;

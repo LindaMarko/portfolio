@@ -61,7 +61,7 @@
         <h3>Expense Tracker</h3>
         <img src="../assets/expense-tracker-screen.jpg" alt="E-wallet" />
         <p>
-          A simple Expense Tracker built in <strong>React</strong>.You can see
+          A simple Expense Tracker built in <strong>React</strong>. You can see
           and filter your expenses by year and add new expenses.
         </p>
         <div class="buttons">

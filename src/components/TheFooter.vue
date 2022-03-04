@@ -74,7 +74,7 @@ footer {
     text-align: center;
     .heading {
       flex-direction: column;
-      padding: 1rem;
+      padding: 0;
       max-width: 325px;
     }
 
