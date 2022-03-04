@@ -63,29 +63,29 @@ header {
     opacity: 1;
   }
   .animate {
-    animation: fading-letters 6s ease 0.3s 3;
+    animation: fading-letters 8s ease 0.3s infinite;
   }
   .animate-2 {
-    animation: fading-letters 6s ease 1s 3;
+    animation: fading-letters 8s ease 1s infinite;
   }
   .animate-3 {
-    animation: fading-letters 6s ease 1.7s 3;
+    animation: fading-letters 8s ease 1.7s infinite;
   }
   .animate-4 {
-    animation: fading-letters 6s ease 2.2s 3;
+    animation: fading-letters 8s ease 2.2s infinite;
   }
   .animate-5 {
-    animation: fading-letters 6s ease 2.9s 3;
+    animation: fading-letters 8s ease 2.9s infinite;
   }
   .animate-6 {
-    animation: fading-letters 6s ease 3.5s 3;
+    animation: fading-letters 8s ease 3.5s infinite;
   }
   @keyframes fading-letters {
     0% {
       opacity: 1;
     }
     50% {
-      opacity: 0;
+      opacity: 0.05;
     }
     100% {
       opacity: 1;

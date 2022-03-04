@@ -29,7 +29,15 @@
       </div>
     </div>
     <div class="see-you">
-      <h1>See you.</h1>
+      <h1>
+        <span class="animate">S</span>
+        <span class="animate animate-2">e</span>
+        <span class="animate animate-3">e </span>
+        <span class="animate animate-4">y</span>
+        <span class="animate animate-5">o</span>
+        <span class="animate animate-6">u</span>
+        <span class="animate animate-7">.</span>
+      </h1>
     </div>
   </footer>
 </template>
@@ -67,7 +75,41 @@ footer {
       line-height: 1.2;
     }
   }
-
+  h1 .animate {
+    opacity: 1;
+  }
+  .animate {
+    animation: fading-letters 10s ease 4s infinite;
+  }
+  .animate-2 {
+    animation: fading-letters 10s ease 3.5s infinite;
+  }
+  .animate-3 {
+    animation: fading-letters 10s ease 2.9s infinite;
+  }
+  .animate-4 {
+    animation: fading-letters 10s ease 2.2s infinite;
+  }
+  .animate-5 {
+    animation: fading-letters 10s ease 1.7s infinite;
+  }
+  .animate-6 {
+    animation: fading-letters 10s ease 1s infinite;
+  }
+  .animate-7 {
+    animation: fading-letters 10s ease 0.3s infinite;
+  }
+  @keyframes fading-letters {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.05;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   .contact-info {
     background-color: #f5f5f5;
     color: rgb(8, 8, 8);

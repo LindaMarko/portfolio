@@ -104,11 +104,11 @@ export default {}
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
 
     img {
       width: 85%;
-      // border: 1px solid whitesmoke;
 
       &:hover {
         opacity: 1;
@@ -222,6 +222,7 @@ export default {}
   #projects {
     .project-container {
       padding: 0 3rem;
+      margin-top: 5rem;
     }
     h2 {
       font-size: 3.5rem;
