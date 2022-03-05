@@ -169,6 +169,7 @@ export default {}
   #projects {
     h2 {
       font-size: 3rem;
+      margin-top: 5rem;
     }
 
     .project-container {
@@ -195,11 +196,9 @@ export default {}
     }
     article.sw {
       border-right: 1px solid whitesmoke;
-      border-bottom: 1px solid whitesmoke;
     }
     article.wallet {
       margin-top: 3rem;
-      border-top: 1px solid whitesmoke;
     }
   }
 }
