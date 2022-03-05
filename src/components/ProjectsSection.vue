@@ -109,6 +109,7 @@ export default {}
 
     img {
       width: 85%;
+      border-radius: 5px;
 
       &:hover {
         opacity: 1;
@@ -194,16 +195,18 @@ export default {}
     }
     article.sw {
       border-right: 1px solid whitesmoke;
+      border-bottom: 1px solid whitesmoke;
     }
     article.wallet {
       margin-top: 3rem;
+      border-top: 1px solid whitesmoke;
     }
   }
 }
 @media (min-width: 1020px) {
   #projects {
     h2 {
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
     }
     article {
       padding: 2rem;
@@ -226,7 +229,6 @@ export default {}
     }
     h2 {
       font-size: 3.5rem;
-      margin-bottom: 5rem;
     }
     article {
       margin-top: 0;
