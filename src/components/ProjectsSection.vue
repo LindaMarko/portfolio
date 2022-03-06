@@ -109,7 +109,7 @@ export default {}
 
     img {
       width: 85%;
-      border-radius: 5px;
+      border-radius: 3px;
 
       &:hover {
         opacity: 1;
