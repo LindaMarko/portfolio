@@ -3,7 +3,13 @@
     <h2>Ski<span>ll</span>s</h2>
     <article>
       <ul class="skills-container">
-        <li v-for="skill in skills" :key="skill.name">
+        <li
+          v-for="skill in skills"
+          :key="skill.name"
+          data-aos="fade-down"
+          data-aos-easing="ease"
+          data-aos-duration="3000"
+        >
           <div class="logo-con">
             <img :src="skill.logoPath" :alt="skill.altText" />
             <p>{{ skill.name }}</p>

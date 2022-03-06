@@ -1,7 +1,12 @@
 <template>
   <section id="about">
     <h2><span>A</span>bout</h2>
-    <div class="about-text">
+    <div
+      class="about-text"
+      data-aos="zoom-in-down"
+      data-aos-easing="ease"
+      data-aos-duration="2500"
+    >
       <p>
         I am a curious and enthusiastic
         <strong>JavaScript Developer</strong> student from Stockholm with a
