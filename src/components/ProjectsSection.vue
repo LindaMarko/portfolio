@@ -4,7 +4,7 @@
     <div class="project-container">
       <article class="sw">
         <h3>Sinus Webshop</h3>
-        <img src="../assets/sinus-screen.jpg" alt="Star Wars Catalog" />
+        <img src="@/assets/sinus-screen.jpg" alt="Star Wars Catalog" />
         <p>
           SINUS Webshop is an online store that sells skateboards and
           accessories, built in <strong>Vue.js</strong> with Vuex and Vue
@@ -21,7 +21,7 @@
       </article>
       <article class="wallet">
         <h3>E-wallet</h3>
-        <img src="../assets/e-wallet-ss.jpg" alt="E-wallet" />
+        <img src="@/assets/e-wallet-ss.jpg" alt="E-wallet" />
         <p>
           The E-wallet App is a single page application, built in
           <strong>Vue.js</strong> and has two different views, Home and Add
@@ -41,7 +41,7 @@
     <div class="project-container">
       <article class="sw">
         <h3>Star Wars Catalog</h3>
-        <img src="../assets/sw_screen.jpg" alt="Star Wars Catalog" />
+        <img src="@/assets/sw_screen.jpg" alt="Star Wars Catalog" />
         <p>
           A single page application that lists all the characters and their
           personal details from the Star Wars movies. Created using the Star
@@ -59,7 +59,7 @@
       </article>
       <article class="wallet">
         <h3>Expense Tracker</h3>
-        <img src="../assets/expense-tracker-screen.jpg" alt="E-wallet" />
+        <img src="@/assets/expense-tracker-screen.jpg" alt="E-wallet" />
         <p>
           A simple Expense Tracker built in <strong>React</strong>. You can see
           and filter your expenses by year and add new expenses.
