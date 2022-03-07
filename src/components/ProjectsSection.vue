@@ -174,6 +174,7 @@ export default {}
 
     .project-container {
       display: flex;
+      max-width: 1700px;
       margin-top: 3rem;
       padding: 0 1rem;
     }

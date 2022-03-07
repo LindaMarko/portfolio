@@ -139,7 +139,7 @@ header {
 @media (min-width: 1300px) {
   header {
     .intro .heading h2 {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
     }
   }
 }

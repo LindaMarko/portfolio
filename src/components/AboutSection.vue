@@ -9,7 +9,7 @@
     >
       <p>
         I am a curious and enthusiastic
-        <strong>JavaScript Developer</strong> student from Stockholm with a
+        <strong>JavaScript developer</strong> student from Stockholm with a
         background in retail and e-commerce.
       </p>
       <p>
