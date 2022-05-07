@@ -1,24 +1,6 @@
 # portfolio
 
-## Project setup
-```
-npm install
-```
+### Personal portfolio to showcase my coding projects. Built with Vue.js.
+#### <https://lindamarko.dev>  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img src="/src/assets/portfolio_mockup.jpg">
