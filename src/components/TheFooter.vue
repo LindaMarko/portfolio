@@ -3,10 +3,10 @@
     <div class="contact-info">
       <div class="heading">
         <h2>C<span class="letterO">o</span>ntact</h2>
-        <p>
-          I am currently looking for internship for fall 2022. Feel free to
-          contact me.
+        <p class="internship">
+          I am currently looking for internship for fall 2022.
         </p>
+        <p>Feel free to contact me.</p>
         <vue-typed-js
           :strings="['lindamarko.dev@gmail.com']"
           :showCursor="false"
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped lang="scss">
@@ -59,7 +59,6 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
   .see-you {
     background-image: url(../assets/keyboard.jpg);
     background-position: center;
@@ -117,7 +116,7 @@ footer {
     .heading {
       flex-direction: column;
       padding: 0;
-      max-width: 325px;
+      max-width: 340px;
     }
 
     .heading h2 {
@@ -127,6 +126,9 @@ footer {
     }
     .heading p {
       font-size: 1rem;
+    }
+    .heading .internship {
+      padding: 0 1.5rem;
     }
     .heading .letterO {
       color: #00f7c3;
@@ -154,37 +156,39 @@ footer {
     }
     .contact-info {
       line-height: 1.4;
-    }
-    .contact-info .heading h2 {
-      font-size: 3rem;
-      margin-top: 2rem;
-    }
-    .contact-info .heading p {
-      font-size: 1rem;
+
+      .heading h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+      }
+
+      .contact-info .heading p {
+        font-size: 1rem;
+      }
     }
   }
 }
 @media (min-width: 1020px) {
   footer {
-    // .see-you {
-    //   padding: 0 6rem;
-    // }
     .see-you h1 {
       font-size: 6.3rem;
     }
-    .contact-info .heading h2 {
-      font-size: 3rem;
+    .contact-info {
+      .heading h2 {
+        font-size: 3rem;
+      }
+
+      .heading {
+        max-width: 550px;
+      }
+      .heading .internship {
+        padding: 0;
+      }
     }
   }
 }
 @media (min-width: 1300px) {
   footer {
-    // .see-you {
-    //   padding: 0 10rem;
-    // }
-    .contact-info .heading {
-      max-width: 350px;
-    }
     .contact-info .heading h2 {
       font-size: 3rem;
     }
