@@ -128,7 +128,7 @@ footer {
       font-size: 1rem;
     }
     .heading .internship {
-      padding: 0 1.5rem;
+      padding: 0 2rem;
     }
     .heading .letterO {
       color: #00f7c3;
