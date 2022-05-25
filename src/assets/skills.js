@@ -25,11 +25,6 @@ const skills = [
     altText: 'React Logo',
   },
   {
-    name: 'React Native',
-    logoPath: require('../assets/logos/react-icon.png'),
-    altText: 'React Logo',
-  },
-  {
     name: 'NPM',
     logoPath: require('../assets/logos/npm-icon.png'),
     altText: 'NPM Logo',

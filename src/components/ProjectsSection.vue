@@ -9,8 +9,7 @@
           SINUS Webshop is an online store that sells skateboards and
           accessories, built in <strong>Vue.js</strong> with Vuex and Vue
           Router. You can buy as a guest or register as a customer and there is
-          even an admin view where products can be added, edited or deleted and
-          customer's orders can be seen.
+          an admin view where products can be edited.
         </p>
         <div class="buttons">
           <a href="https://github.com/LindaMarko/sinus-webshop" target="_blank"
@@ -20,20 +19,18 @@
         </div>
       </article>
       <article class="wallet">
-        <h3>E-wallet</h3>
-        <img src="@/assets/e-wallet-ss.jpg" alt="E-wallet" />
+        <h3>Inge Bygg Rest API</h3>
+        <img src="@/assets/inge.jpg" alt="E-wallet" />
         <p>
-          The E-wallet App is a single page application, built in
-          <strong>Vue.js</strong> and has two different views, Home and Add
-          Card. You can add and remove credit cards, see the current active card
-          and all other available cards.
+          Backend <strong>REST API</strong> for a case management system for a
+          building company written in <strong>Node.js</strong>, Express and
+          Mongoose.
         </p>
         <div class="buttons">
-          <a href="https://github.com/LindaMarko/vue-e-wallet" target="_blank"
+          <a
+            href="https://github.com/LindaMarko/backend_final_project"
+            target="_blank"
             >Source Code</a
-          >
-          <a href="https://lindamarko.github.io/vue-e-wallet/" target="_blank"
-            >View Site</a
           >
         </div>
       </article>
@@ -58,17 +55,20 @@
         </div>
       </article>
       <article class="wallet">
-        <h3>Expense Tracker</h3>
-        <img src="@/assets/expense-tracker-screen.jpg" alt="E-wallet" />
+        <h3>E-wallet</h3>
+        <img src="@/assets/e-wallet-ss.jpg" alt="E-wallet" />
         <p>
-          A simple Expense Tracker built in <strong>React</strong>. You can see
-          and filter your expenses by year and add new expenses.
+          The E-wallet App is a single page application, built in
+          <strong>Vue.js</strong> and has two different views, Home and Add
+          Card. You can add and remove credit cards, see the current active card
+          and all other available cards.
         </p>
         <div class="buttons">
-          <a
-            href="https://github.com/LindaMarko/react_expense_tracker"
-            target="_blank"
+          <a href="https://github.com/LindaMarko/vue-e-wallet" target="_blank"
             >Source Code</a
+          >
+          <a href="https://lindamarko.github.io/vue-e-wallet/" target="_blank"
+            >View Site</a
           >
         </div>
       </article>
@@ -77,7 +77,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped lang="scss">
