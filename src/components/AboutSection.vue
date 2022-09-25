@@ -77,6 +77,7 @@ export default {};
     padding: 1.5rem 1rem;
     margin: 0 1rem 6rem;
     border: 1px solid whitesmoke;
+    text-align: justify;
 
     p {
       margin: 0.5rem 0 1rem;
@@ -102,7 +103,6 @@ export default {};
       width: 55%;
       padding: 2rem;
       border: 1px solid #000;
-      text-align: left;
       margin-bottom: 12rem;
     }
   }
@@ -124,7 +124,8 @@ export default {};
       font-size: 3.5rem;
     }
     .about-text {
-      width: 40%;
+      width: 90%;
+      max-width: 600px;
 
       p {
         font-size: 1rem;

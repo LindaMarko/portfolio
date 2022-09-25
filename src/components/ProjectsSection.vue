@@ -30,18 +30,28 @@
         </div>
       </article>
       <article class="wallet">
-        <h3>Inge Bygg Rest API</h3>
-        <img src="@/assets/inge.jpg" alt="Inge Bygg" />
+        <h3>ITHS Dashboard</h3>
+        <img
+          src="@/assets/dashboard-screen.jpg"
+          alt="ITHS Dashboard"
+        />
         <p>
-          Backend <strong>REST API</strong> for a case
-          management system for a building company written
-          in <strong>Node.js</strong>, Express and Mongoose.
+          <strong>ITHS Dashboard</strong> is a Progressive
+          Web App (PWA) built in <strong>React</strong>. A
+          dashboard for our school to provide useful
+          information to the students. Optimized for mobile
+          and large screens.
         </p>
         <div class="buttons">
           <a
-            href="https://github.com/LindaMarko/backend_final_project"
+            href="https://github.com/LindaMarko/iths-dashboard"
             target="_blank"
             >Source Code</a
+          >
+          <a
+            href="https://iths-dashboard.netlify.app/"
+            target="_blank"
+            >View Site</a
           >
         </div>
       </article>
