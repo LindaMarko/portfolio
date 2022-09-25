@@ -15,15 +15,16 @@
         <p>My name is</p>
         <h2>Linda Markó</h2>
         <vue-typed-js
-          :strings="['JavaScript']"
+          :strings="['JavaScript', 'Web', 'Frontend']"
           :showCursor="false"
-          :startDelay="3000"
+          :startDelay="1000"
           :typeSpeed="150"
           :backSpeed="60"
-          :backDelay="5000"
+          :backDelay="2000"
+          :loop="true"
           ><p>
             &#38; I am a
-            <span class="typing"></span> developer.
+            <span class="typing"></span> Developer.
           </p></vue-typed-js
         >
       </div>
@@ -32,7 +33,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped lang="scss">

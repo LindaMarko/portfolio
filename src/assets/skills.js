@@ -45,6 +45,16 @@ const skills = [
     altText: 'SQL Logo',
   },
   {
+    name: 'PHP',
+    logoPath: require('../assets/logos/php-icon.png'),
+    altText: 'PHP Logo',
+  },
+  {
+    name: 'Laravel',
+    logoPath: require('../assets/logos/laravel-icon.png'),
+    altText: 'Laravel Logo',
+  },
+  {
     name: 'VS Code',
     logoPath: require('../assets/logos/vs-icon.png'),
     altText: 'VS Code Logo',

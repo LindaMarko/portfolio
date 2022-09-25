@@ -9,32 +9,46 @@
     >
       <p>
         I am a curious and enthusiastic
-        <strong>JavaScript developer</strong> student from Stockholm with a
-        background in retail and e-commerce.
+        <strong>JavaScript developer</strong> student from
+        Stockholm with a background in retail and
+        e-commerce.
       </p>
       <p>
-        I am truly grateful that I had the opportunity to change my career,
-        although it doesn’t feel like a change but more like a natural progress
-        in my life. Studying web development and programming is the real deal
-        that I am deeply passionate about.
+        I am truly grateful that I had the opportunity to
+        change my career. Studying web development and
+        programming is the real deal that I am deeply
+        passionate about.
       </p>
       <p>
-        With a strong interest in both front-end and back-end technologies, I
-        have completed a great deal of coursework with
-        <strong>Vanilla JavaScript</strong> and <strong>Vue.js</strong> during
-        my studies so far and I am looking forward to getting familiar with
-        <strong>React</strong> and <strong>Node.js</strong> in this semester.
+        With a strong interest in both front-end and
+        back-end technologies, I have completed a great deal
+        of coursework with
+        <strong>Vanilla JavaScript</strong>,
+        <strong>Vue.js</strong>, <strong>React</strong> and
+        <strong>Node.js</strong> during my studies so far
+        and I am looking forward to getting familiar with
+        <strong>TypeScript</strong> as well in this
+        semester.
       </p>
       <p>
-        At the moment, my portfolio contains some of my relevant school projects
-        and will be updated constantly.
+        Currently, I'm doing my first internship at
+        <a href="https://www.vaimo.com/"
+          ><strong>Vaimo</strong></a
+        >
+        where I'm working with
+        <strong>Magento</strong>, a highly-customizable
+        eCommerce platform.
+      </p>
+      <p>
+        My portfolio contains some of my relevant school and
+        hobby projects and will be updated constantly.
       </p>
     </div>
   </section>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped lang="scss">
@@ -66,6 +80,14 @@ export default {}
 
     p {
       margin: 0.5rem 0 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:visited {
+      color: #00f7c3;
     }
   }
 }

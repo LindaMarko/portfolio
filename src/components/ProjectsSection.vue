@@ -3,28 +3,84 @@
     <h2>Project<span>s</span></h2>
     <div class="project-container">
       <article class="sw">
-        <h3>Sinus Webshop</h3>
-        <img src="@/assets/sinus-screen.jpg" alt="Star Wars Catalog" />
+        <h3>Beauty World Webstore</h3>
+        <img
+          src="@/assets/beauty-screen.jpg"
+          alt="Beauty World"
+        />
         <p>
-          SINUS Webshop is an online store that sells skateboards and
-          accessories, built in <strong>Vue.js</strong> with Vuex and Vue
-          Router. You can buy as a guest or register as a customer and there is
-          an admin view where products can be edited.
+          BEAUTY WORLD is an ecommerce project, built in
+          <strong>Laravel 9 / PHP</strong> with
+          <strong>Bootstrap</strong> and
+          <strong>jQuery</strong>, using the Makeup API. You
+          can register as a customer and there is also an
+          admin panel.
         </p>
         <div class="buttons">
-          <a href="https://github.com/LindaMarko/sinus-webshop" target="_blank"
+          <a
+            href="https://github.com/LindaMarko/beauty-world"
+            target="_blank"
             >Source Code</a
           >
-          <a href="https://youtu.be/G6YGT0Z3gBw" target="_blank">View Site</a>
+          <a
+            href="https://www.youtube.com/watch?v=TPIm4tRfIU4"
+            target="_blank"
+            >View Site</a
+          >
         </div>
       </article>
       <article class="wallet">
         <h3>Inge Bygg Rest API</h3>
-        <img src="@/assets/inge.jpg" alt="E-wallet" />
+        <img src="@/assets/inge.jpg" alt="Inge Bygg" />
         <p>
-          Backend <strong>REST API</strong> for a case management system for a
-          building company written in <strong>Node.js</strong>, Express and
-          Mongoose.
+          Backend <strong>REST API</strong> for a case
+          management system for a building company written
+          in <strong>Node.js</strong>, Express and Mongoose.
+        </p>
+        <div class="buttons">
+          <a
+            href="https://github.com/LindaMarko/backend_final_project"
+            target="_blank"
+            >Source Code</a
+          >
+        </div>
+      </article>
+    </div>
+    <div class="project-container">
+      <article class="sw">
+        <h3>Sinus Webshop</h3>
+        <img
+          src="@/assets/sinus-screen.jpg"
+          alt="Sinus Webshop"
+        />
+        <p>
+          SINUS Webshop is an online store that sells
+          skateboards and accessories, built in
+          <strong>Vue.js</strong> with Vuex and Vue Router.
+          You can buy as a guest or register as a customer
+          and there is an admin view where products can be
+          edited.
+        </p>
+        <div class="buttons">
+          <a
+            href="https://github.com/LindaMarko/sinus-webshop"
+            target="_blank"
+            >Source Code</a
+          >
+          <a
+            href="https://youtu.be/G6YGT0Z3gBw"
+            target="_blank"
+            >View Site</a
+          >
+        </div>
+      </article>
+      <article class="wallet">
+        <h3>Inge Bygg Rest API</h3>
+        <img src="@/assets/inge.jpg" alt="Inge Bygg" />
+        <p>
+          Backend <strong>REST API</strong> for a case
+          management system for a building company written
+          in <strong>Node.js</strong>, Express and Mongoose.
         </p>
         <div class="buttons">
           <a
@@ -38,12 +94,17 @@
     <div class="project-container">
       <article class="sw">
         <h3>Star Wars Catalog</h3>
-        <img src="@/assets/sw_screen.jpg" alt="Star Wars Catalog" />
+        <img
+          src="@/assets/sw_screen.jpg"
+          alt="Star Wars Catalog"
+        />
         <p>
-          A single page application that lists all the characters and their
-          personal details from the Star Wars movies. Created using the Star
-          Wars <strong>API</strong>, written in <strong>HTML</strong>,
-          <strong>CSS</strong> and <strong>Vanilla JavaScript</strong>.
+          A single page application that lists all the
+          characters and their personal details from the
+          Star Wars movies. Created using the Star Wars
+          <strong>API</strong>, written in
+          <strong>HTML</strong>, <strong>CSS</strong> and
+          <strong>Vanilla JavaScript</strong>.
         </p>
         <div class="buttons">
           <a
@@ -51,23 +112,36 @@
             target="_blank"
             >Source Code</a
           >
-          <a href="https://youtu.be/NeglszyBnfQ" target="_blank">View Site</a>
+          <a
+            href="https://youtu.be/NeglszyBnfQ"
+            target="_blank"
+            >View Site</a
+          >
         </div>
       </article>
       <article class="wallet">
         <h3>E-wallet</h3>
-        <img src="@/assets/e-wallet-ss.jpg" alt="E-wallet" />
+        <img
+          src="@/assets/e-wallet-ss.jpg"
+          alt="E-wallet"
+        />
         <p>
-          The E-wallet App is a single page application, built in
-          <strong>Vue.js</strong> and has two different views, Home and Add
-          Card. You can add and remove credit cards, see the current active card
-          and all other available cards.
+          The E-wallet App is a single page application,
+          built in
+          <strong>Vue.js</strong> and has two different
+          views, Home and Add Card. You can add and remove
+          credit cards, see the current active card and all
+          other available cards.
         </p>
         <div class="buttons">
-          <a href="https://github.com/LindaMarko/vue-e-wallet" target="_blank"
+          <a
+            href="https://github.com/LindaMarko/vue-e-wallet"
+            target="_blank"
             >Source Code</a
           >
-          <a href="https://lindamarko.github.io/vue-e-wallet/" target="_blank"
+          <a
+            href="https://lindamarko.github.io/vue-e-wallet/"
+            target="_blank"
             >View Site</a
           >
         </div>
