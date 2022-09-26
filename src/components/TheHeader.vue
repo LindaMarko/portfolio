@@ -17,7 +17,7 @@
         <vue-typed-js
           :strings="['JavaScript', 'Web', 'Frontend']"
           :showCursor="false"
-          :startDelay="1000"
+          :startDelay="1500"
           :typeSpeed="150"
           :backSpeed="60"
           :backDelay="2000"
