@@ -8,40 +8,29 @@
       data-aos-duration="2500"
     >
       <p>
-        I am a curious and enthusiastic
-        <strong>JavaScript developer</strong> student from
-        Stockholm with a background in retail and
-        e-commerce.
+        I am an eager and dedicated <strong>Junior Frontend Developer</strong>
+        with a background in e-commerce and managing online presence.
       </p>
       <p>
-        I am truly grateful that I had the opportunity to
-        change my career. Studying web development and
-        programming is the real deal that I am deeply
-        passionate about.
+        I am truly grateful that I had the opportunity to change my career.
+        Working with web development and programming is the real deal that I am
+        deeply passionate about.
       </p>
       <p>
-        With a strong interest in both front-end and
-        back-end technologies, I have completed a great deal
-        of coursework with
-        <strong>Vanilla JavaScript</strong>,
-        <strong>Vue.js</strong>, <strong>React</strong> and
-        <strong>Node.js</strong> during my studies so far
-        and I am looking forward to getting familiar with
-        <strong>TypeScript</strong> as well in this
-        semester.
+        With a strong interest in both front-end and back-end technologies, I am
+        committed to staying current with industry trends and continuously
+        expanding my skill set to contribute effectively to dynamic development
+        teams.
       </p>
       <p>
-        Currently, I'm doing my first internship at
-        <a href="https://www.vaimo.com/"
-          ><strong>Vaimo</strong></a
-        >
-        where I'm working with
-        <strong>Magento</strong>, a highly-customizable
-        eCommerce platform.
+        Currently, I'm working at
+        <a href="https://www.vaimo.com/"><strong>Vaimo</strong></a>
+        one of the world's most respected experts in digital commerce and
+        customer experiences.
       </p>
       <p>
-        My portfolio contains some of my relevant school and
-        hobby projects and will be updated constantly.
+        My portfolio contains some of my relevant school and hobby projects and
+        will be updated constantly.
       </p>
     </div>
   </section>

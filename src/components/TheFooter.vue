@@ -4,10 +4,8 @@
       <div class="heading">
         <h2>C<span class="letterO">o</span>ntact</h2>
         <p class="internship">
-          I am currently looking for internship for spring
-          2023.
+          For more information, please don't hesitate to reach out to me.
         </p>
-        <p>Feel free to contact me.</p>
         <vue-typed-js
           :strings="['lindamarko.dev@gmail.com']"
           :showCursor="false"
@@ -21,19 +19,11 @@
             <span class="typing"></span></p
         ></vue-typed-js>
         <div class="links">
-          <a
-            href="https://www.linkedin.com/in/linda-marko/"
-            target="_blank"
-            ><img
-              src="../assets/logos/linkedin-logo.png"
-              alt="LinkedIn Logo"
+          <a href="https://www.linkedin.com/in/linda-marko/" target="_blank"
+            ><img src="../assets/logos/linkedin-logo.png" alt="LinkedIn Logo"
           /></a>
-          <a
-            href="https://github.com/LindaMarko"
-            target="_blank"
-            ><img
-              src="../assets/logos/github-logo-black.png"
-              alt="GitHub Logo"
+          <a href="https://github.com/LindaMarko" target="_blank"
+            ><img src="../assets/logos/github-logo-black.png" alt="GitHub Logo"
           /></a>
         </div>
       </div>
