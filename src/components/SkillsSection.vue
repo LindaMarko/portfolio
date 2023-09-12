@@ -22,8 +22,8 @@
 
 <script>
 export default {
-  props: ["skills"],
-}
+  props: ['skills'],
+};
 </script>
 
 <style scoped lang="scss">
@@ -40,12 +40,12 @@ export default {
     font-size: 2.5rem;
 
     span {
-      color: #00f7c3;
+      color: #f723ba;
     }
   }
   .skills-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
     row-gap: 2.5rem;
     margin-top: 6rem;
@@ -69,7 +69,7 @@ export default {
       font-size: 3rem;
     }
     .skills-container {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       .logo-con {
         p {
           font-size: 1.2rem;

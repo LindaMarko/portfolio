@@ -25,14 +25,14 @@ export default {
   data() {
     return {
       showNav: false,
-    }
+    };
   },
   methods: {
     toggleNav() {
-      this.showNav = !this.showNav
+      this.showNav = !this.showNav;
     },
   },
-}
+};
 </script>
 
 <style>
@@ -64,10 +64,10 @@ export default {
   left: 1.5rem;
 }
 .logo a {
-  font-family: "Spartan", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 1rem;
   font-weight: 800;
-  color: #00f7c3;
+  color: #f723ba;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
@@ -90,7 +90,7 @@ export default {
   transition: all 0.7s 0.5s;
 }
 .nav-link {
-  font-family: "Spartan", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ export default {
   transition: color 0.4s;
 }
 .nav-link:hover {
-  color: #00f7c3;
+  color: #f723ba;
 }
 .menu {
   width: 1.5rem;

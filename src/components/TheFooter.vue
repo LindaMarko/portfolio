@@ -15,7 +15,7 @@
           :backDelay="5000"
           :loop="true"
           ><p class="email">
-            <strong>Email:</strong>
+            <strong>Email: </strong>
             <span class="typing"></span></p
         ></vue-typed-js>
         <div class="links">
@@ -27,17 +27,17 @@
           /></a>
         </div>
       </div>
-    </div>
-    <div class="see-you">
-      <h1>
-        <span class="animate">S</span>
-        <span class="animate animate-2">e</span>
-        <span class="animate animate-3">e </span>
-        <span class="animate animate-4">y</span>
-        <span class="animate animate-5">o</span>
-        <span class="animate animate-6">u</span>
-        <span class="animate animate-7">.</span>
-      </h1>
+      <div class="see-you">
+        <h1>
+          <span class="animate">S</span>
+          <span class="animate animate-2">e</span>
+          <span class="animate animate-3">e </span>
+          <span class="animate animate-4">y</span>
+          <span class="animate animate-5">o</span>
+          <span class="animate animate-6">u</span>
+          <span class="animate animate-7">.</span>
+        </h1>
+      </div>
     </div>
   </footer>
 </template>
@@ -48,28 +48,29 @@ export default {};
 
 <style scoped lang="scss">
 footer {
+  background-image: url(../assets/barbie-pink.jpeg);
+  background-position: center;
+  background-size: cover;
   height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .see-you,
   .contact-info,
   .heading {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .see-you {
-    background-image: url(../assets/keyboard.jpg);
-    background-position: center;
-    background-size: cover;
     padding: 0 3rem;
 
     h1 {
-      font-size: 4.5rem;
+      font-size: 5.5rem;
       font-weight: 900;
-      margin-top: 2.8rem;
-      color: whitesmoke;
+      color: black;
       text-transform: uppercase;
       line-height: 1.2;
     }
@@ -78,25 +79,25 @@ footer {
     opacity: 1;
   }
   .animate {
-    animation: fading-letters 10s ease 4s infinite;
+    animation: fading-letters 8s ease 4.5s infinite;
   }
   .animate-2 {
-    animation: fading-letters 10s ease 3.5s infinite;
+    animation: fading-letters 8s ease 3.8s infinite;
   }
   .animate-3 {
-    animation: fading-letters 10s ease 2.9s infinite;
+    animation: fading-letters 8s ease 3.1s infinite;
   }
   .animate-4 {
-    animation: fading-letters 10s ease 2.2s infinite;
+    animation: fading-letters 8s ease 2.4s infinite;
   }
   .animate-5 {
-    animation: fading-letters 10s ease 1.7s infinite;
+    animation: fading-letters 8s ease 1.7s infinite;
   }
   .animate-6 {
-    animation: fading-letters 10s ease 1s infinite;
+    animation: fading-letters 8s ease 1s infinite;
   }
   .animate-7 {
-    animation: fading-letters 10s ease 0.3s infinite;
+    animation: fading-letters 8s ease 0.3s infinite;
   }
   @keyframes fading-letters {
     0% {
@@ -110,8 +111,7 @@ footer {
     }
   }
   .contact-info {
-    background-color: #f5f5f5;
-    color: rgb(8, 8, 8);
+    color: black;
     text-align: center;
     .heading {
       flex-direction: column;
@@ -121,23 +121,23 @@ footer {
 
     .heading h2 {
       font-size: 2.5rem;
-      margin-top: 4rem;
       margin-bottom: 2rem;
     }
     .heading p {
+      color: black;
       font-size: 1rem;
     }
     .heading .internship {
       padding: 0 2rem;
     }
     .heading .letterO {
-      color: #00f7c3;
+      color: black;
     }
     .heading .email {
       margin-top: 0.8rem;
     }
     .heading .links {
-      margin: 2rem 0 4rem;
+      margin: 2rem 0 6rem;
 
       a {
         margin: 0 0.3em;
@@ -147,19 +147,20 @@ footer {
 }
 @media (min-width: 767px) {
   footer {
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-
     .see-you h1 {
-      font-size: 5.3rem;
+      font-size: 6rem;
       margin-top: 0;
     }
     .contact-info {
       line-height: 1.4;
 
+      .heading {
+        max-width: unset;
+      }
+
       .heading h2 {
         font-size: 3rem;
-        margin-top: 2rem;
+        margin-top: 0;
       }
 
       .contact-info .heading p {
@@ -178,9 +179,6 @@ footer {
         font-size: 3rem;
       }
 
-      .heading {
-        max-width: 550px;
-      }
       .heading .internship {
         padding: 0;
       }
@@ -189,11 +187,21 @@ footer {
 }
 @media (min-width: 1300px) {
   footer {
+    .see-you h1 {
+      font-size: 9rem;
+    }
     .contact-info .heading h2 {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
     .contact-info .heading p {
       font-size: 1.1rem;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  footer {
+    .see-you h1 {
+      font-size: 8.5rem;
     }
   }
 }

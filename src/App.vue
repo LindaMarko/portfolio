@@ -12,16 +12,16 @@
 </template>
 
 <script>
-import NavBar from "./components/NavBar"
-import TheHeader from "./components/TheHeader"
-import AboutSection from "./components/AboutSection"
-import ProjectsSection from "./components/ProjectsSection"
-import SkillsSection from "./components/SkillsSection"
-import TheFooter from "./components/TheFooter"
-import skills from "./assets/skills.js"
+import NavBar from './components/NavBar';
+import TheHeader from './components/TheHeader';
+import AboutSection from './components/AboutSection';
+import ProjectsSection from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
+import TheFooter from './components/TheFooter';
+import skills from './assets/skills.js';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     NavBar,
     TheHeader,
@@ -33,13 +33,14 @@ export default {
   data() {
     return {
       skillsArr: [...skills],
-    }
+    };
   },
-}
+};
 </script>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Spartan:wght@500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=League+Spartan:wght@200;300;400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -48,21 +49,25 @@ export default {
   text-decoration: none;
   list-style-type: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  font-family: "Jost", sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-size: 16px;
   background-color: #000;
   line-height: 1.6;
 }
+
 #wrapper {
   width: 100%;
 }
+
 h1,
 h2,
 h3 {
-  font-family: "Spartan", sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 </style>

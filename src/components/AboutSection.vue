@@ -8,8 +8,9 @@
       data-aos-duration="2500"
     >
       <p>
-        I am an eager and dedicated <strong>Junior Frontend Developer</strong>
-        with a background in e-commerce and managing online presence.
+        My name is Linda Markó. I am an eager and dedicated
+        <strong>Junior Frontend Developer</strong> in Stockholm with a
+        background in e-commerce and managing online presence.
       </p>
       <p>
         I am truly grateful that I had the opportunity to change my career.
@@ -17,7 +18,7 @@
         deeply passionate about.
       </p>
       <p>
-        With a strong interest in both front-end and back-end technologies, I am
+        With a strong interest in both frontend and backend technologies, I am
         committed to staying current with industry trends and continuously
         expanding my skill set to contribute effectively to dynamic development
         teams.
@@ -42,21 +43,21 @@ export default {};
 
 <style scoped lang="scss">
 #about {
-  // height: 100vh;
+  //height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: whitesmoke;
-  color: rgb(8, 8, 8);
+  color: rgb(59, 59, 59);
 
   h2 {
-    margin-top: 6rem;
-    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
     font-size: 2.5rem;
 
     span {
-      color: #00f7c3;
+      color: #f723ba;
     }
   }
 
@@ -65,41 +66,41 @@ export default {};
     max-width: 500px;
     padding: 1.5rem 1rem;
     margin: 0 1rem 6rem;
-    border: 1px solid whitesmoke;
-    text-align: justify;
+    text-align: left;
 
     p {
+      color: #616161;
       margin: 0.5rem 0 1rem;
     }
 
     a {
       text-decoration: none;
-      color: black;
+      color: #616161;
     }
     a:visited {
-      color: #00f7c3;
+      color: #f723ba;
     }
   }
 }
 @media (min-width: 767px) {
   #about {
     h2 {
-      margin-bottom: 3.5rem;
+      margin-bottom: 0.5rem;
       font-size: 3rem;
     }
 
     .about-text {
-      width: 55%;
+      width: 65%;
       padding: 2rem;
-      border: 1px solid #000;
-      margin-bottom: 12rem;
+      /* border: 1px solid #616161; */
+      margin-bottom: 8rem;
     }
   }
 }
 @media (min-width: 1020px) {
   #about {
     h2 {
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
     }
 
     .about-text {
@@ -111,6 +112,7 @@ export default {};
   #about {
     h2 {
       font-size: 3.5rem;
+      margin-top: 8rem;
     }
     .about-text {
       width: 90%;
