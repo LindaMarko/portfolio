@@ -162,6 +162,8 @@ export default {};
     }
 
     p {
+      font-weight: 300;
+      letter-spacing: 1px;
       margin: 2rem 0 3rem;
       padding: 0 1.5rem;
       text-align: center;

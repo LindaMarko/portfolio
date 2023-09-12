@@ -69,6 +69,7 @@ export default {};
     text-align: left;
 
     p {
+      font-weight: 300;
       color: #616161;
       margin: 0.5rem 0 1rem;
     }
@@ -85,7 +86,7 @@ export default {};
 @media (min-width: 767px) {
   #about {
     h2 {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0;
       font-size: 3rem;
     }
 
@@ -99,10 +100,6 @@ export default {};
 }
 @media (min-width: 1020px) {
   #about {
-    h2 {
-      margin-bottom: 1rem;
-    }
-
     .about-text {
       width: 50%;
     }
@@ -116,10 +113,10 @@ export default {};
     }
     .about-text {
       width: 90%;
-      max-width: 600px;
+      max-width: 670px;
 
       p {
-        font-size: 1rem;
+        font-size: 1.1rem;
       }
     }
   }

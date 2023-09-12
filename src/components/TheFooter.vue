@@ -1,9 +1,20 @@
 <template>
   <footer id="contact">
     <div class="contact-info">
+      <div class="see-you">
+        <h1>
+          <span class="animate">S</span>
+          <span class="animate animate-2">e</span>
+          <span class="animate animate-3">e </span>
+          <span class="animate animate-4">y</span>
+          <span class="animate animate-5">o</span>
+          <span class="animate animate-6">u</span>
+          <span class="animate animate-7">.</span>
+        </h1>
+      </div>
       <div class="heading">
-        <h2>C<span class="letterO">o</span>ntact</h2>
-        <p class="internship">
+        <!-- <h2>C<span class="letterO">o</span>ntact</h2> -->
+        <p class="info">
           For more information, please don't hesitate to reach out to me.
         </p>
         <vue-typed-js
@@ -26,17 +37,6 @@
             ><img src="../assets/logos/github-logo-black.png" alt="GitHub Logo"
           /></a>
         </div>
-      </div>
-      <div class="see-you">
-        <h1>
-          <span class="animate">S</span>
-          <span class="animate animate-2">e</span>
-          <span class="animate animate-3">e </span>
-          <span class="animate animate-4">y</span>
-          <span class="animate animate-5">o</span>
-          <span class="animate animate-6">u</span>
-          <span class="animate animate-7">.</span>
-        </h1>
       </div>
     </div>
   </footer>
@@ -71,6 +71,7 @@ footer {
       font-size: 5.5rem;
       font-weight: 900;
       color: black;
+      margin: 5rem 0 2rem;
       text-transform: uppercase;
       line-height: 1.2;
     }
@@ -126,8 +127,9 @@ footer {
     .heading p {
       color: black;
       font-size: 1rem;
+      font-weight: 300;
     }
-    .heading .internship {
+    .heading .info {
       padding: 0 2rem;
     }
     .heading .letterO {
@@ -149,7 +151,6 @@ footer {
   footer {
     .see-you h1 {
       font-size: 6rem;
-      margin-top: 0;
     }
     .contact-info {
       line-height: 1.4;
@@ -179,7 +180,7 @@ footer {
         font-size: 3rem;
       }
 
-      .heading .internship {
+      .heading .info {
         padding: 0;
       }
     }
@@ -194,7 +195,7 @@ footer {
       font-size: 3.5rem;
     }
     .contact-info .heading p {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
   }
 }
