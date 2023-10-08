@@ -48,7 +48,7 @@ export default {};
 
 <style scoped lang="scss">
 footer {
-  background-image: url(../assets/white-paper.jpg);
+  background-image: url(../assets/white-crumpled-paper.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;

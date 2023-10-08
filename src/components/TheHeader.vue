@@ -85,7 +85,7 @@ export default {};
     .name {
       align-items: center;
       flex-direction: column;
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 700;
       text-transform: none;
       line-height: 1.1;
@@ -190,7 +190,7 @@ export default {};
     font-size: 9rem;
 
     .name {
-      font-size: 3.5rem;
+      font-size: 3.4rem;
     }
   }
 }

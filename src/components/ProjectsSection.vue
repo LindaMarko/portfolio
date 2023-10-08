@@ -377,7 +377,7 @@ export default {};
     }
     h2 {
       font-size: 3.6rem;
-      margin-top: 7rem;
+      margin-top: 8rem;
     }
     .img-container {
       margin-top: 0;
