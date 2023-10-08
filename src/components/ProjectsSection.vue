@@ -8,10 +8,7 @@
           <div class="middle middle-left">
             <h3>Chat With Ada</h3>      
             <p>
-              BEAUTY WORLD is an ecommerce project, built in
-              <strong>Laravel 9 / PHP</strong> with <strong>Bootstrap</strong> and
-              <strong>jQuery</strong>, using the Makeup API. You can register as a
-              customer and there is also an admin panel.
+              ChatGPT clone that uses <strong>Next.js</strong> v13, OpenAI's GPT API, MongoDB, Auth0 and Tailwind CSS.
             </p>
             <div class="buttons">
               <a href="https://github.com/LindaMarko/chat-with-ada" target="_blank"
@@ -49,7 +46,7 @@
             <h3>ITHS Dashboard</h3>      
             <p>
               <strong>ITHS Dashboard</strong> is a Progressive Web App (PWA) built
-              in <strong>React</strong>. A dashboard for our school to provide
+              in <strong>React</strong>. A dashboard for my school to provide
               useful information to the students. Optimized for mobile and large
               screens.
             </p>
@@ -222,6 +219,10 @@ export default {};
     }
 
     .middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background-color: black;
       transition: .5s ease;
       opacity: .9;
@@ -234,7 +235,7 @@ export default {};
       text-align: center;
 
       h3 {
-        margin-top: 1.3rem;
+        //margin-top: 1rem;
         font-size: 1.3rem;
       }
 
@@ -387,7 +388,7 @@ export default {};
 
         h3 {
           font-size: 1.3rem;
-          margin-top: 1rem;
+          //margin-top: 1rem;
           margin-bottom: .7rem;
         }
 
