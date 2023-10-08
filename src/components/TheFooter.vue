@@ -48,7 +48,7 @@ export default {};
 
 <style scoped lang="scss">
 footer {
-  background-image: url(../assets/barbie-pink.jpeg);
+  background-image: url(../assets/white-wall-copy.jpeg);
   background-position: center;
   background-size: cover;
   height: 100vh;

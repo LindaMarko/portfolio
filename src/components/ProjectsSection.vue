@@ -1,12 +1,32 @@
 <template>
   <section id="projects">
-    <h2>Project<span>s</span></h2>
+    <h2><span>P</span>rojects</h2>
     <div class="project-container">
       <div class="row">
         <article class="img-container">
-          <img src="@/assets/beauty-screen.jpg" alt="Beauty World" />
-          <div class="middle" style="background-color: black;">
-            <h3>Beauty World Webstore</h3>      
+          <img src="@/assets/chat-w-ada.jpg" alt="Beauty World" />
+          <div class="middle middle-left">
+            <h3>Chat With Ada</h3>      
+            <p>
+              BEAUTY WORLD is an ecommerce project, built in
+              <strong>Laravel 9 / PHP</strong> with <strong>Bootstrap</strong> and
+              <strong>jQuery</strong>, using the Makeup API. You can register as a
+              customer and there is also an admin panel.
+            </p>
+            <div class="buttons">
+              <a href="https://github.com/LindaMarko/chat-with-ada" target="_blank"
+                >Source Code</a
+              >
+              <a href="https://chat-with-ada.vercel.app/" target="_blank"
+                >View Site</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="img-container">
+          <img src="@/assets/beauty-screen-new.jpg" alt="Beauty World" />
+          <div class="middle">
+            <h3>Beauty World</h3>      
             <p>
               BEAUTY WORLD is an ecommerce project, built in
               <strong>Laravel 9 / PHP</strong> with <strong>Bootstrap</strong> and
@@ -24,7 +44,7 @@
           </div>
         </article>
         <article class="img-container">
-          <img src="@/assets/dashboard-screen.jpg" alt="ITHS Dashboard" />
+          <img src="@/assets/dashboard-screen-new.jpg" alt="ITHS Dashboard" />
           <div class="middle">
             <h3>ITHS Dashboard</h3>      
             <p>
@@ -44,7 +64,44 @@
           </div>
         </article>
         <article class="img-container">
-          <img src="@/assets/sinus-screen.jpg" alt="Sinus Webshop" />
+          <img src="@/assets/portfolio-screen.jpg" alt="Star Wars Catalog" />
+          <div class="middle middle-right">
+            <h3>My Portfolio</h3>      
+            <p>
+              Personal portfolio to showcase my coding projects. Built with <strong>Vue.js</strong>.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://github.com/LindaMarko/portfolio"
+                target="_blank"
+                >Source Code</a
+              >
+              <a href="https://lindamarko.dev/" target="_blank">View Site</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="row">
+        <article class="img-container">
+          <img src="@/assets/inge-new.jpg" alt="Inge Bygg" />
+          <div class="middle middle-left">
+            <h3>Inge Bygg Rest API</h3>      
+            <p>
+              Backend <strong>REST API</strong> for a case management system for a
+              building company written in <strong>Node.js</strong>, Express and
+              Mongoose.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://github.com/LindaMarko/backend_final_project"
+                target="_blank"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="img-container">
+          <img src="@/assets/sinus-screen-new.jpg" alt="Sinus Webshop" />
           <div class="middle">
             <h3>Sinus Webshop</h3>      
             <p>
@@ -63,25 +120,7 @@
           </div>
         </article>
         <article class="img-container">
-          <img src="@/assets/inge.jpg" alt="Inge Bygg" />
-          <div class="middle">
-            <h3>Inge Bygg Rest API</h3>      
-            <p>
-              Backend <strong>REST API</strong> for a case management system for a
-              building company written in <strong>Node.js</strong>, Express and
-              Mongoose.
-            </p>
-            <div class="buttons">
-              <a
-                href="https://github.com/LindaMarko/backend_final_project"
-                target="_blank"
-                >Source Code</a
-              >
-            </div>
-          </div>
-        </article>
-        <article class="img-container">
-          <img src="@/assets/sw_screen.jpg" alt="Star Wars Catalog" />
+          <img src="@/assets/sw_screen-new.jpg" alt="Star Wars Catalog" />
           <div class="middle">
             <h3>Star Wars Catalog</h3>      
             <p>
@@ -101,89 +140,9 @@
             </div>
           </div>
         </article>
-        
-      </div>
-      <div class="row">
         <article class="img-container">
-          <img src="@/assets/beauty-screen.jpg" alt="Beauty World" />
-          <div class="middle" style="background-color: black;">
-            <h3>Beauty World Webstore</h3>      
-            <p>
-              BEAUTY WORLD is an ecommerce project, built in
-              <strong>Laravel 9 / PHP</strong> with <strong>Bootstrap</strong> and
-              <strong>jQuery</strong>, using the Makeup API. You can register as a
-              customer and there is also an admin panel.
-            </p>
-            <div class="buttons">
-              <a href="https://github.com/LindaMarko/beauty-world" target="_blank"
-                >Source Code</a
-              >
-              <a href="https://www.youtube.com/watch?v=TPIm4tRfIU4" target="_blank"
-                >View Site</a
-              >
-            </div>
-          </div>
-        </article>
-        <article class="img-container">
-          <img src="@/assets/dashboard-screen.jpg" alt="ITHS Dashboard" />
-          <div class="middle">
-            <h3>ITHS Dashboard</h3>      
-            <p>
-              <strong>ITHS Dashboard</strong> is a Progressive Web App (PWA) built
-              in <strong>React</strong>. A dashboard for our school to provide
-              useful information to the students. Optimized for mobile and large
-              screens.
-            </p>
-            <div class="buttons">
-              <a href="https://github.com/LindaMarko/iths-dashboard" target="_blank"
-                >Source Code</a
-              >
-              <a href="https://iths-dashboard.netlify.app/" target="_blank"
-                >View Site</a
-              >
-            </div>
-          </div>
-        </article>
-        <article class="img-container">
-          <img src="@/assets/sinus-screen.jpg" alt="Sinus Webshop" />
-          <div class="middle">
-            <h3>Sinus Webshop</h3>      
-            <p>
-              SINUS Webshop is an online store that sells skateboards and
-              accessories, built in
-              <strong>Vue.js</strong> with Vuex and Vue Router. You can buy as a
-              guest or register as a customer and there is an admin view where
-              products can be edited.
-            </p>
-            <div class="buttons">
-              <a href="https://github.com/LindaMarko/sinus-webshop" target="_blank"
-                >Source Code</a
-              >
-              <a href="https://youtu.be/G6YGT0Z3gBw" target="_blank">View Site</a>
-            </div>
-          </div>
-        </article>
-        <article class="img-container">
-          <img src="@/assets/inge.jpg" alt="Inge Bygg" />
-          <div class="middle">
-            <h3>Inge Bygg Rest API</h3>      
-            <p>
-              Backend <strong>REST API</strong> for a case management system for a
-              building company written in <strong>Node.js</strong>, Express and
-              Mongoose.
-            </p>
-            <div class="buttons">
-              <a
-                href="https://github.com/LindaMarko/backend_final_project"
-                target="_blank"
-                >Source Code</a
-              >
-            </div>
-          </div>
-        </article>
-        <article class="img-container">
-          <img src="@/assets/e-wallet-ss.jpg" alt="E-wallet" />
-          <div class="middle">
+          <img src="@/assets/e-wallet-ss-new.jpg" alt="E-wallet" />
+          <div class="middle middle-right">
             <h3>E-wallet</h3>      
             <p>
               The E-wallet App is a single page application, built in
@@ -201,7 +160,6 @@
             </div>
           </div>
         </article>
-        
       </div>
     </div>
   </section>
@@ -222,11 +180,11 @@ export default {};
   color: whitesmoke;
 
   .project-container {
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
 
   h2 {
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-size: 2.5rem;
 
     span {
@@ -251,13 +209,13 @@ export default {};
 
     &:hover .middle, 
     &:active .middle {
-      opacity: .8;
+      opacity: .9;
     }
 
     img {
       background-color: black;
       width: 100%;
-      opacity: .8;
+      opacity: 1;
       height: auto;
       transition: .5s ease;
       display: block;
@@ -266,27 +224,30 @@ export default {};
     .middle {
       background-color: black;
       transition: .5s ease;
-      opacity: .8;
+      opacity: .9;
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 80%;
-      height: 80%;
+      width: 70%;
+      height: 70%;
       transform: translate(-50%, -50%);
       text-align: center;
 
       h3 {
-        margin-top: 1rem;
-        font-size: 1rem;
+        margin-top: 1.3rem;
+        font-size: 1.3rem;
       }
 
       p {
-        font-size: .7rem;
+        font-size: .9rem;
         font-weight: 300;
-        //letter-spacing: 1px;
-        //margin: 2rem 0 3rem;
-        padding: 1rem;
+        line-height: 1.4;
+        padding: 1.1rem .9rem;
         text-align: center;
+      }
+
+      .buttons {
+        margin-top: .6rem;
       }
 
       .buttons a {
@@ -311,29 +272,14 @@ export default {};
     }
   } 
 }
-@media (min-width: 515px) {
+@media (min-width: 420px) {
   #projects {
-    /* .project-container {
-      display: flex;
-      flex-direction: column;
-    }
-    .row {
-      display: flex;
-    }
     .img-container {
-      flex: 1;
-      width: 20%;
-
-      &:focus,
-      &:hover {
-        transform: scale(1.5);
-        z-index: 1;
+      .middle {
+        width: 60%;
+        height: 65%;
       }
-
-      p {
-        padding: 0 4rem;
-      }
-    } */
+    } 
   }
 }
 @media (min-width: 767px) {
@@ -347,59 +293,78 @@ export default {};
       display: flex;
       flex-direction: column;
       max-width: 1700px;
-      margin-top: 3rem
+      margin-top: 5rem
     }
     .row {
       display: flex;
     }
     .img-container {
       flex: 1;
-      width: 20%;
+      width: 25%;
 
       &:focus,
       &:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
         z-index: 1;
       }
 
       .middle { 
         opacity: 0;
-      }
+        width: 80%;
+        height: 80%;
 
-      p {
-        padding: 0 4rem;
-      }
-    }
+        h3 {
+          font-size: .8rem;
+          margin-top: .6rem;
+        }
 
-    article {
-      //margin-top: 3rem;
-      //padding: 1.5rem;
+        p {
+          font-size: .5rem;
+          padding: .5rem;
+        }
 
-      img {
-        width: 90%;
-        border: none;
-      }
-
-      h3 {
-        font-size: 1.5rem;
-      }
-
-      p {
-        padding: 0 1rem;
+        .buttons a {
+          font-size: .5rem;
+          padding: .3rem .5rem;
+          margin: .5rem;
+        }
       }
     }
+
+   /*  .middle.middle-left {
+      transform: translate(-40%, -50%);
+    }
+    .middle.middle-right {
+      transform: translate(-60%, -50%);
+    } */
   }
 }
 @media (min-width: 1020px) {
   #projects {
     h2 {
-      margin-bottom: 1rem;
+      margin-bottom: 2.5rem;
+      margin-top: 6rem;
     }
     .img-container {
+      .middle { 
+        width: 70%;
+        height: 70%;
 
+        h3 {
+          font-size: 1rem;
+          margin-top: .6rem;
+        }
 
-      p {
-        padding: 0 1.5rem;
+        p {
+          font-size: .6rem;
+          padding: .5rem;
+        }
+
+        .buttons a {
+          font-size: .6rem;
+          padding: .3rem .7rem;
+          margin: .5rem;
+        }
       }
     }
   }
@@ -407,22 +372,66 @@ export default {};
 @media (min-width: 1300px) {
   #projects {
     .project-container {
-      margin-top: 5rem;
+      margin-top: 6rem;
     }
     h2 {
-      font-size: 3.5rem;
+      font-size: 3.6rem;
+      margin-top: 7rem;
     }
     .img-container {
       margin-top: 0;
 
-      p {
-        padding: 0 3rem;
-        font-size: 1rem;
-      }
-      .buttons a {
-        font-size: 1rem;
+      .middle { 
+        width: 70%;
+        height: 70%;
+
+        h3 {
+          font-size: 1.3rem;
+          margin-top: 1rem;
+          margin-bottom: .7rem;
+        }
+
+        p {
+          font-size: .8rem;
+          padding: .5rem;
+        }
+
+        .buttons a {
+          font-size: .8rem;
+          padding: .4rem .8rem;
+          margin: .7rem;
+        }
       }
     }
+  }
+}
+@media (min-width: 1750px) {
+  #projects {
+    .project-container {
+      margin-top: 7rem;
+    }
+    h2 {
+      font-size: 3.5rem;
+      margin-top: 9rem;
+    }
+    .img-container {
+      margin-top: 0;
+
+      .middle { 
+        width: 60%;
+        height: 60%;
+
+        h3 {
+           margin-top: 1.5rem;
+        }
+      }
+    }
+    .middle.middle-left {
+        transform: translate(-50%, -50%);
+      }
+      .middle.middle-right {
+        transform: translate(-50%, -50%);
+      }
   }
 }
 </style>

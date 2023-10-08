@@ -39,11 +39,11 @@ const skills = [
     logoPath: require('../assets/logos/mongodb-icon.png'),
     altText: 'MongoDB Logo',
   },
-  {
+  /* {
     name: 'SQL',
     logoPath: require('../assets/logos/sql-icon.png'),
     altText: 'SQL Logo',
-  },
+  }, */
   {
     name: 'PHP',
     logoPath: require('../assets/logos/php-icon.png'),
