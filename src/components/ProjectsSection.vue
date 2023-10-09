@@ -105,8 +105,7 @@
               SINUS Webshop is an online store that sells skateboards and
               accessories, built in
               <strong>Vue.js</strong> with Vuex and Vue Router. You can buy as a
-              guest or register as a customer and there is an admin view where
-              products can be edited.
+              guest or register as a customer and there is an admin view as well.
             </p>
             <div class="buttons">
               <a href="https://github.com/LindaMarko/sinus-webshop" target="_blank"
@@ -230,7 +229,7 @@ export default {};
       top: 50%;
       left: 50%;
       width: 70%;
-      height: 70%;
+      height: 77%;
       transform: translate(-50%, -50%);
       text-align: center;
 
@@ -287,7 +286,7 @@ export default {};
   #projects {
     h2 {
       font-size: 3rem;
-      margin-top: 5rem;
+      margin-top: 6rem;
     }
 
     .project-container {
@@ -305,14 +304,14 @@ export default {};
 
       &:focus,
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.3);
         z-index: 1;
       }
 
       .middle { 
         opacity: 0;
-        width: 80%;
-        height: 80%;
+        width: 88%;
+        height: 95%;
 
         h3 {
           font-size: .8rem;
@@ -320,24 +319,28 @@ export default {};
         }
 
         p {
-          font-size: .5rem;
+          font-size: .7rem;
           padding: .5rem;
         }
 
+        .buttons {
+          margin-top: 0;
+        }
+
         .buttons a {
-          font-size: .5rem;
+          font-size: .6rem;
           padding: .3rem .5rem;
           margin: .5rem;
         }
       }
     }
 
-   /*  .middle.middle-left {
-      transform: translate(-40%, -50%);
+    .middle.middle-left {
+      transform: translate(-45%, -50%);
     }
     .middle.middle-right {
-      transform: translate(-60%, -50%);
-    } */
+      transform: translate(-55%, -50%);
+    }
   }
 }
 @media (min-width: 1020px) {
@@ -348,8 +351,8 @@ export default {};
     }
     .img-container {
       .middle { 
-        width: 70%;
-        height: 70%;
+        width: 75%;
+        height: 75%;
 
         h3 {
           font-size: 1rem;
@@ -357,12 +360,12 @@ export default {};
         }
 
         p {
-          font-size: .6rem;
+          font-size: .7rem;
           padding: .5rem;
         }
 
         .buttons a {
-          font-size: .6rem;
+          font-size: .7rem;
           padding: .3rem .7rem;
           margin: .5rem;
         }
@@ -377,14 +380,20 @@ export default {};
     }
     h2 {
       font-size: 3.6rem;
-      margin-top: 8rem;
+      margin-top: 9rem;
     }
     .img-container {
       margin-top: 0;
 
+      &:focus,
+      &:hover {
+        transform: scale(1.2);
+        z-index: 1;
+      }
+
       .middle { 
         width: 70%;
-        height: 70%;
+        height: 75%;
 
         h3 {
           font-size: 1.3rem;
@@ -395,6 +404,10 @@ export default {};
         p {
           font-size: .8rem;
           padding: .5rem;
+        }
+
+        .buttons {
+          margin-top: .5rem;
         }
 
         .buttons a {
