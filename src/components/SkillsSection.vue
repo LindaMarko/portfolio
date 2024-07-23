@@ -40,7 +40,7 @@ export default {
     font-size: 2.5rem;
 
     span {
-      color: #f723ba;
+      color: #0BA79F;
     }
   }
   .skills-container {

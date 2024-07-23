@@ -67,7 +67,7 @@ export default {
   font-family: 'Jost', sans-serif;
   font-size: 1rem;
   font-weight: 800;
-  color: #f723ba;
+  color: #0BA79F;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
@@ -100,7 +100,7 @@ export default {
   transition: color 0.4s;
 }
 .nav-link:hover {
-  color: #f723ba;
+  color: #0BA79F;
 }
 .menu {
   width: 1.5rem;

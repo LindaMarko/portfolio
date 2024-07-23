@@ -92,7 +92,7 @@ export default {};
     }
 
     .job-name {
-      color: #f723ba;
+      color: #0BA79F;
     }
   }
 

@@ -15,14 +15,44 @@ const skills = [
     altText: 'CSS Logo',
   },
   {
+    name: 'React',
+    logoPath: require('../assets/logos/react-icon.png'),
+    altText: 'React Logo',
+  },
+  {
+    name: 'Next.js',
+    logoPath: require('../assets/logos/next-icon.png'),
+    altText: 'Next.js Logo',
+  },
+  {
+    name: 'TypeScript',
+    logoPath: require('../assets/logos/typescript-icon.png'),
+    altText: 'TypeScript Logo',
+  },
+  {
     name: 'Vue.js',
     logoPath: require('../assets/logos/vue-icon.png'),
     altText: 'Vue Logo',
   },
   {
-    name: 'React',
-    logoPath: require('../assets/logos/react-icon.png'),
-    altText: 'React Logo',
+    name: 'Tailwind CSS',
+    logoPath: require('../assets/logos/tailwind-icon.png'),
+    altText: 'Tailwind CSS Logo',
+  },
+  {
+    name: 'Responsive Design',
+    logoPath: require('../assets/logos/resp-icon.png'),
+    altText: 'Reponsive Design Logo',
+  },
+  {
+    name: 'UI Design',
+    logoPath: require('../assets/logos/uidesign-icon.png'),
+    altText: 'UI Design Logo',
+  },
+  {
+    name: 'Figma',
+    logoPath: require('../assets/logos/figma-logo.png'),
+    altText: 'Figma Logo',
   },
   {
     name: 'NPM',
@@ -38,16 +68,6 @@ const skills = [
     name: 'MongoDB',
     logoPath: require('../assets/logos/mongodb-icon.png'),
     altText: 'MongoDB Logo',
-  },
-  /* {
-    name: 'SQL',
-    logoPath: require('../assets/logos/sql-icon.png'),
-    altText: 'SQL Logo',
-  }, */
-  {
-    name: 'PHP',
-    logoPath: require('../assets/logos/php-icon.png'),
-    altText: 'PHP Logo',
   },
   {
     name: 'Laravel',
@@ -68,16 +88,6 @@ const skills = [
     name: 'GitHub',
     logoPath: require('../assets/logos/github-icon.png'),
     altText: 'GitHub Logo',
-  },
-  {
-    name: 'Responsive Design',
-    logoPath: require('../assets/logos/resp-icon.png'),
-    altText: 'Reponsive Design Logo',
-  },
-  {
-    name: 'Figma',
-    logoPath: require('../assets/logos/figma-logo.png'),
-    altText: 'Figma Logo',
   },
 ];
 

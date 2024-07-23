@@ -8,20 +8,16 @@
       data-aos-duration="2500"
     >
       <p>
-        My name is Linda Markó. I am an eager and dedicated
-        <strong>Junior Frontend Developer</strong> in Stockholm with a
-        background in e-commerce and managing online presence.
+        My name is Linda Markó and I am an eager and dedicated
+        <strong>Junior Frontend Developer</strong> based in Stockholm. With a background in e-commerce, economics, and floral design, I bring a diverse skill set to create data-driven, user-centric, and visually appealing interfaces.
       </p>
       <p>
-        I am truly grateful that I had the opportunity to change my career.
-        Working with web development and programming is the real deal that I am
+        I am truly grateful for the opportunity to change my career.
+        Working with web development and user interface design is the real deal that I am
         deeply passionate about.
       </p>
       <p>
-        With a strong interest in both frontend and backend technologies, I am
-        committed to staying current with industry trends and continuously
-        expanding my skill set to contribute effectively to dynamic development
-        teams.
+        I am comitted to keeping up with industry trends and constantly enhancing my skills to contribute effectively to cross-functional development teams and deliver exceptional value.
       </p>
       <p>
         Currently, I'm working at
@@ -57,7 +53,7 @@ export default {};
     font-size: 2.5rem;
 
     span {
-      color: #f723ba;
+      color: #0BA79F;
     }
   }
 
@@ -79,7 +75,7 @@ export default {};
       color: #616161;
     }
     a:visited {
-      color: #f723ba;
+      color: #0BA79F;
     }
   }
 }
@@ -113,7 +109,7 @@ export default {};
     }
     .about-text {
       width: 90%;
-      max-width: 670px;
+      max-width: 600px;
 
       p {
         font-size: 1.1rem;
