@@ -14,27 +14,21 @@
               <a href="https://github.com/LindaMarko/chat-with-ada" target="_blank"
                 >Source Code</a
               >
-              <a href="https://chat-with-ada.vercel.app/" target="_blank"
-                >View Site</a
-              >
             </div>
           </div>
         </article>
         <article class="img-container">
-          <img src="@/assets/beauty-screen-new.jpg" alt="Beauty World" />
+          <img src="@/assets/dressing-screen.jpg" alt="Beauty World" />
           <div class="middle">
-            <h3>Beauty World</h3>      
+            <h3>the dressing room</h3>      
             <p>
-              BEAUTY WORLD is an ecommerce project, built in
-              <strong>Laravel 9 / PHP</strong> with <strong>Bootstrap</strong> and
-              <strong>jQuery</strong>, using the Makeup API. You can register as a
-              customer and there is also an admin panel.
+              A full-stack ecommerce website using <strong>Next.js</strong>, <strong>Tailwind CSS</strong>, <strong>MongoDB</strong> as the database, <strong>Axios</strong> for making API requests, and is deployed using <strong>Vercel</strong>.
             </p>
             <div class="buttons">
-              <a href="https://github.com/LindaMarko/beauty-world" target="_blank"
+              <a href="https://github.com/LindaMarko/the-dressing-room" target="_blank"
                 >Source Code</a
               >
-              <a href="https://www.youtube.com/watch?v=TPIm4tRfIU4" target="_blank"
+              <a href="https://the-dressing-room.vercel.app/" target="_blank"
                 >View Site</a
               >
             </div>
@@ -45,7 +39,7 @@
           <div class="middle">
             <h3>ITHS Dashboard</h3>      
             <p>
-              <strong>ITHS Dashboard</strong> is a Progressive Web App (PWA) built
+              A Progressive Web App (PWA) built
               in <strong>React</strong>. A dashboard for my school to provide
               useful information to the students. Optimized for mobile and large
               screens.
@@ -80,6 +74,24 @@
       </div>
       <div class="row">
         <article class="img-container">
+          <img src="@/assets/sinus-screen-new.jpg" alt="Sinus Webshop" />
+          <div class="middle">
+            <h3>Sinus Webshop</h3>      
+            <p>
+              An online store that sells skateboards and
+              accessories, built in
+              <strong>Vue.js</strong> with Vuex and Vue Router. You can buy as a
+              guest or register as a customer and there is an admin view as well.
+            </p>
+            <div class="buttons">
+              <a href="https://github.com/LindaMarko/sinus-webshop" target="_blank"
+                >Source Code</a
+              >
+              <a href="https://youtu.be/G6YGT0Z3gBw" target="_blank">View Site</a>
+            </div>
+          </div>
+        </article>
+        <article class="img-container">
           <img src="@/assets/inge-new.jpg" alt="Inge Bygg" />
           <div class="middle middle-left">
             <h3>Inge Bygg Rest API</h3>      
@@ -94,24 +106,6 @@
                 target="_blank"
                 >Source Code</a
               >
-            </div>
-          </div>
-        </article>
-        <article class="img-container">
-          <img src="@/assets/sinus-screen-new.jpg" alt="Sinus Webshop" />
-          <div class="middle">
-            <h3>Sinus Webshop</h3>      
-            <p>
-              SINUS Webshop is an online store that sells skateboards and
-              accessories, built in
-              <strong>Vue.js</strong> with Vuex and Vue Router. You can buy as a
-              guest or register as a customer and there is an admin view as well.
-            </p>
-            <div class="buttons">
-              <a href="https://github.com/LindaMarko/sinus-webshop" target="_blank"
-                >Source Code</a
-              >
-              <a href="https://youtu.be/G6YGT0Z3gBw" target="_blank">View Site</a>
             </div>
           </div>
         </article>
@@ -141,7 +135,7 @@
           <div class="middle middle-right">
             <h3>E-wallet</h3>      
             <p>
-              The E-wallet App is a single page application, built in
+              A single page application, built in
               <strong>Vue.js</strong> and has two different views, Home and Add
               Card. You can add and remove credit cards, see the current active card
               and all other available cards.
@@ -150,7 +144,7 @@
               <a href="https://github.com/LindaMarko/vue-e-wallet" target="_blank"
                 >Source Code</a
               >
-              <a href="https://lindamarko.github.io/vue-e-wallet/" target="_blank"
+              <a href="https://www.youtube.com/watch?v=UwIvhktP-4w" target="_blank"
                 >View Site</a
               >
             </div>
